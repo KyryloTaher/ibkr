@@ -75,12 +75,11 @@ function render() {
  } else {
   const end=records[records.length-1], begin=records[0], grouped=periodPoints(frequency);
   markup+='<div class="performance-stats">'+
-   '<div class="performance-stat"><small>EARNED FROM INVESTING</small><strong>'+sign(end.earned_eur)+'</strong><span>Since '+esc(meta.start)+' · including realized and unrealized P&amp;L</span></div>'+
+   '<div class="performance-stat"><small>EARNED FROM INVESTING</small><strong class="'+(end.earned_eur<0?'negative':'positive')+'">'+(end.earned_eur>0?'+':' :'')+euro(end.earned_eur)+'</strong><span>Since '+esc(meta.start)+' · including realized and unrealized P&amp;L</span></div>'+
    '<div class="performance-stat"><small>NET DEPOSITS / WITHDRAWALS</small><strong>'+euro(end.net_flows_eur)+'</strong><span>Additional money added (negative = net withdrawn)</span></div>'+
    '<div class="performance-stat"><small>STARTING PORTFOLIO</small><strong>'+euro(begin.value_eur)+'</strong><span>Starting capital at '+esc(meta.start)+'</span></div></div>';
   markup+='<div class="performance-charts">'+
-   '<div><h3>Cumulative investment earnings</h3><p>Actual account gains and losses, excluding savings</p><div class="performance-chart">'+plot(grouped,false)+'</div></div>'+
-   '<div><h3>Value vs capital contributed</h3><p><span class="legend legend-nav"></span>Portfolio value &nbsp; <span class="legend legend-capital"></span>Starting value + net deposits</p><div class="performance-chart">'+plot(grouped,true)+'</div></div></div>';
+   '<div><h3>Cumulative investment earnings</h3><p>Actual account gains and losses, excluding savings</p><div class="performance-chart">'+plot(grouped,false)+'</div></div></div>';
   markup+='<div class="performance-table-title"><h3>'+esc(frequency)+' earnings</h3><p>Each row separates market results from deposited or withdrawn cash.</p></div>';
   markup+='<div class="table-scroller"><table><thead><tr><th>Period</th><th>Earned / lost</th><th>Net cash added</th><th>Earned since start</th><th>Ending value</th></tr></thead><tbody>'+
    grouped.slice().reverse().map(p=>'<tr><td><strong>'+esc(p.label)+'</strong><small class="performance-date">'+esc(p.date)+'</small></td><td>'+sign(p.gain)+'</td><td>'+euro(p.flow)+'</td><td>'+sign(p.earned)+'</td><td>'+euro(p.value)+'</td></tr>').join('')+
