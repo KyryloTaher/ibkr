@@ -358,7 +358,7 @@
       "symbol": "META"
     },
     "8f75381c60f7bf15ac3d": {
-      "amount_base": 1.0,
+      "amount_base": 1,
       "date": "2025-12-11",
       "kind": "Dividends",
       "symbol": "MSFT"
@@ -2667,5 +2667,127 @@
       "total_base": 2837.382499969
     }
   },
-  "schema": 1
+  "schema": 2,
+  "external_flows": {
+    "f1b8e8794f3a1c0d35e4": {
+      "date": "2025-10-22",
+      "currency": "EUR",
+      "amount_currency": 2209.48,
+      "amount_base": 2565.20628
+    },
+    "fe6866911ae8a1fff032": {
+      "date": "2025-11-03",
+      "currency": "EUR",
+      "amount_currency": -200,
+      "amount_base": -230.4
+    },
+    "e61133e1ee784dfc286d": {
+      "date": "2025-11-11",
+      "currency": "EUR",
+      "amount_currency": -137.87,
+      "amount_base": -159.681034
+    },
+    "d4067d433c195000455e": {
+      "date": "2026-07-27",
+      "currency": "EUR",
+      "amount_currency": -887.8,
+      "amount_base": -1009.25104
+    },
+    "06d2aeb2c9c027d277cd": {
+      "date": "2026-08-11",
+      "currency": "EUR",
+      "amount_currency": 183.05,
+      "amount_base": 211.294615
+    },
+    "2efb0eae7ccd291d977f": {
+      "date": "2026-09-07",
+      "currency": "EUR",
+      "amount_currency": 214.5,
+      "amount_base": 249.31335
+    },
+    "b2371f528986a7516a95": {
+      "date": "2025-11-17",
+      "currency": "USD",
+      "amount_currency": -147.81,
+      "amount_base": -147.81
+    },
+    "cedca7ba82fa6a357ec8": {
+      "date": "2025-11-26",
+      "currency": "USD",
+      "amount_currency": -100,
+      "amount_base": -100
+    },
+    "0911fadb484dcbed2c1e": {
+      "date": "2025-12-01",
+      "currency": "USD",
+      "amount_currency": -100,
+      "amount_base": -100
+    },
+    "8296d0cf7b41d8302bd1": {
+      "date": "2025-12-02",
+      "currency": "USD",
+      "amount_currency": -56.46,
+      "amount_base": -56.46
+    },
+    "dc01e935fe00f6c0dbab": {
+      "date": "2025-12-04",
+      "currency": "USD",
+      "amount_currency": 55.33,
+      "amount_base": 55.33
+    },
+    "7d4106cd1976c4ec46d7": {
+      "date": "2025-12-15",
+      "currency": "USD",
+      "amount_currency": -55.51,
+      "amount_base": -55.51
+    },
+    "eb2b71ad5a50a8eb250c": {
+      "date": "2026-01-05",
+      "currency": "USD",
+      "amount_currency": -52.09,
+      "amount_base": -52.09
+    },
+    "10dfbdfde3e28a8aa5af": {
+      "date": "2026-01-06",
+      "currency": "USD",
+      "amount_currency": -48.91,
+      "amount_base": -48.91
+    },
+    "2d1f506bd6d47c9974da": {
+      "date": "2026-01-12",
+      "currency": "USD",
+      "amount_currency": -143.25,
+      "amount_base": -143.25
+    },
+    "54281e5e23c18a21b010": {
+      "date": "2026-02-17",
+      "currency": "USD",
+      "amount_currency": -121.75,
+      "amount_base": -121.75
+    },
+    "a16db5313fd3425cb5e8": {
+      "date": "2026-02-24",
+      "currency": "USD",
+      "amount_currency": -133.62,
+      "amount_base": -133.62
+    },
+    "3cd5de73eb40bd9d4e5c": {
+      "date": "2026-06-03",
+      "currency": "USD",
+      "amount_currency": -1294.17,
+      "amount_base": -1294.17
+    },
+    "66bd76e41226c1c29069": {
+      "date": "2026-10-09",
+      "currency": "USD",
+      "amount_currency": -288.95,
+      "amount_base": -288.95
+    }
+  },
+  "cashflow_coverage": [
+    [
+      "2025-10-21",
+      "2026-10-20"
+    ]
+  ]
 }
