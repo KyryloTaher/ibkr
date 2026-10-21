@@ -43,7 +43,7 @@ function render() {
   const end=records[records.length-1], begin=records[0], grouped=periodPoints(frequency);
   earningsPoints = grouped.map(p=>({date:p.date,value:p.earned}));
   markup+='<div class="performance-stats">'+
-   '<div class="performance-stat"><small>EARNED FROM INVESTING</small><strong class="'+(end.earned_eur<0?'negative':'positive')+'">'+(end.earned_eur>0?'+':' :'')+euro(end.earned_eur)+'</strong><span>Since '+esc(meta.start)+' · including realized and unrealized P&amp;L</span></div>'+
+   '<div class="performance-stat"><small>EARNED FROM INVESTING</small><strong class="'+(end.earned_eur<0?'negative':'positive')+'">'+(end.earned_eur>0?'+':'')+euro(end.earned_eur)+'</strong><span>Since '+esc(meta.start)+' · including realized and unrealized P&amp;L</span></div>'+
    '<div class="performance-stat"><small>NET DEPOSITS / WITHDRAWALS</small><strong>'+euro(end.net_flows_eur)+'</strong><span>Additional money added (negative = net withdrawn)</span></div>'+
    '<div class="performance-stat"><small>STARTING PORTFOLIO</small><strong>'+euro(begin.value_eur)+'</strong><span>Starting capital at '+esc(meta.start)+'</span></div></div>';
   markup+='<div class="performance-charts">'+
