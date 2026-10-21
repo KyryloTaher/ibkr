@@ -1,5 +1,13 @@
 name: Refresh public IBKR portfolio
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'src/**'
+      - 'tests/**'
+      - '.github/workflows/update.yml'
+      - 'requirements.txt'
   schedule:
     - cron: '23 7 * * *' # 07:23 UTC daily; IBKR activity statements, not intraday prices
   workflow_dispatch:
