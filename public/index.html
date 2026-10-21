@@ -11,7 +11,7 @@
   <header class="header"><div class="brand"><div class="brand-icon">◈</div><div><div class="brand-name">Portfolio Atlas</div><div class="brand-subtitle">Interactive Brokers · read-only analytics</div></div></div><div class="status"><span class="green-dot"></span> IBKR Flex · automated reporting</div></header>
   <main>
     <div class="eyebrow">INVESTMENT INTELLIGENCE <span class="dot-sep">•</span> EUR REPORTING</div>
-    <div class="head"><div><h1>Your portfolio, clearly.</h1><p class="lead">Explore allocation, invested capital and unrealized profit or loss across actual reporting dates.</p></div><div class="sync-box"><small>Latest IBKR statement</small><strong id="last-date">—</strong><small id="last-sync">Not yet synchronized</small></div></div>
+    <div class="head"><div><h1>Your portfolio, clearly.</h1><p class="lead">Separate money saved from money earned, and explore allocation, holdings and investment earnings across actual reporting dates.</p></div><div class="sync-box"><small>Latest IBKR statement</small><strong id="last-date">—</strong><small id="last-sync">Not yet synchronized</small></div></div>
     <div class="notice" id="fx-notice" hidden></div>
     <div class="controls"><div class="segment" role="group" aria-label="Reporting frequency"><button class="active" data-period="Weekly">Weekly</button><button data-period="Monthly">Monthly</button><button data-period="Quarterly">Quarterly</button><button data-period="Yearly">Yearly</button></div><div class="snapshot-pick"><label for="snapshot">Holdings as of</label><select id="snapshot"></select></div></div>
     <section class="metrics" aria-label="Portfolio overview">
@@ -29,5 +29,5 @@
     <footer>Public read-only view · End-of-day IBKR statements, not live market prices · No trading or brokerage credentials exposed</footer>
   </main>
 </div>
-<script src="data.js"></script><script src="app.js"></script>
+<script src="data.js"></script><script src="app.js"></script><script src="returns.js"></script>
 </body></html>
