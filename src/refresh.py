@@ -6,6 +6,7 @@ from pathlib import Path
 import requests
 from .portfolio_data import blank_state, ingest
 from .fetch import get_report, ReportError
+from .performance import series
 
 
 def fx_refresh(state, timeout=45):
@@ -67,6 +68,7 @@ def build(state, public):
     public=Path(public);public.mkdir(parents=True,exist_ok=True)
     # All output is a deliberately narrow allow-list; financial values are public by user request.
     cleaned={k:state[k] for k in ('schema','base_currency','nav','holdings','cashflows','fx_usd_eur','last_import')}
+    cleaned['performance'],cleaned['performance_meta']=series(state)
     js=json.dumps(cleaned,ensure_ascii=True,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e')
     (public/'data.js').write_text('window.PORTFOLIO_DATA='+js+';\n',encoding='utf-8')
 
