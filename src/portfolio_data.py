@@ -20,7 +20,7 @@ def day(x):
 
 
 def blank_state():
-    return dict(schema=1, base_currency=None, nav={}, holdings={}, cashflows={}, fx_usd_eur={}, last_import=None)
+    return dict(schema=2, base_currency=None, nav={}, holdings={}, cashflows={}, external_flows={}, cashflow_coverage=[], fx_usd_eur={}, last_import=None)
 
 
 def ingest(xml_bytes: bytes, state: dict):
@@ -82,12 +82,17 @@ def ingest(xml_bytes: bytes, state: dict):
         for d, recs in rows.items():
             state['holdings'][d]=sorted(recs.values(),key=lambda r:-r['value_base'])
             hold_count+=len(recs)
-        # Missing OpenPositions section does not erase existing snapshots.
+        # Record statement coverage to avoid fabricating performance from missing cash history.
+        if statement.find('./CashTransactions') is not None:
+            start, end = day(statement.get('fromDate')), day(statement.get('toDate'))
+            if start and end and start <= end:
+                spans=state.setdefault('cashflow_coverage',[])
+                if [start,end] not in spans: spans.append([start,end])
         for el in statement.findall('./CashTransactions/CashTransaction'):
             a=el.attrib
             kind=a.get('type') or 'Other'
-            if kind not in ('Dividends','Payment In Lieu Of Dividends','Withholding Tax'): continue
-            d=day(a.get('dateTime') or a.get('reportDate'))
+            if kind not in ('Dividends','Payment In Lieu Of Dividends','Withholding Tax','Deposits/Withdrawals'): continue
+            d=day(a.get('reportDate') or a.get('dateTime'))
             if not d:continue
             amount=n(a.get('amount'))
             fx=n(a.get('fxRateToBase'))
@@ -95,7 +100,12 @@ def ingest(xml_bytes: bytes, state: dict):
             # Hash does not carry personal fields to the published data.
             fingerprint='|'.join([a.get('transactionID',''),d,kind,a.get('symbol',''),a.get('amount',''),a.get('currency','')])
             key=sha256(fingerprint.encode()).hexdigest()[:20]
-            state['cashflows'][key]=dict(date=d, kind=kind, symbol=a.get('symbol') or '', amount_base=round(amount*fx,8))
+            if kind == 'Deposits/Withdrawals':
+                state.setdefault('external_flows',{})[key]=dict(
+                    date=d, currency=a.get('currency') or 'USD',
+                    amount_currency=round(amount,8), amount_base=round(amount*fx,8))
+            else:
+                state['cashflows'][key]=dict(date=d, kind=kind, symbol=a.get('symbol') or '', amount_base=round(amount*fx,8))
     if state.get('base_currency') != 'USD':
         raise ValueError('This edition converts USD-base reports to EUR; received a different account base currency.')
     if not state['nav'] and not state['holdings']:
