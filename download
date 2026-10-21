@@ -1,8 +1,0 @@
-*.xml
-.env
-.env.*
-!.env.example
-__pycache__/
-.pytest_cache/
-*.sqlite
-*.log
