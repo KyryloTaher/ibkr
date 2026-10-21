@@ -1,5 +1,11 @@
 {
   "backfill_checked": [
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04",
     "2026-09-11",
     "2026-09-18",
     "2026-09-25",
@@ -8,10 +14,28 @@
     "2026-10-16"
   ],
   "base_currency": "USD",
+  "cashflow_coverage": [
+    [
+      "2025-10-21",
+      "2026-10-20"
+    ]
+  ],
   "cashflows": {
     "022d351f033c10a1e8a4": {
       "amount_base": 0.03,
       "date": "2026-09-14",
+      "kind": "Payment In Lieu Of Dividends",
+      "symbol": "IBKR"
+    },
+    "02d96adb30998144ed5f": {
+      "amount_base": -0.12,
+      "date": "2026-01-09",
+      "kind": "Withholding Tax",
+      "symbol": "TSM"
+    },
+    "083a1c76e6aef8e3926f": {
+      "amount_base": 0.03,
+      "date": "2026-06-16",
       "kind": "Payment In Lieu Of Dividends",
       "symbol": "IBKR"
     },
@@ -63,11 +87,29 @@
       "kind": "Withholding Tax",
       "symbol": "VOO"
     },
+    "1a6ae38320a8f96b16c5": {
+      "amount_base": 0.59,
+      "date": "2026-07-01",
+      "kind": "Dividends",
+      "symbol": "VTI"
+    },
     "1a9c2f3f8be08c07b168": {
       "amount_base": 0.18,
       "date": "2026-01-23",
       "kind": "Dividends",
       "symbol": "ORCL"
+    },
+    "1ba3fdac9edcad6e91b0": {
+      "amount_base": 0.0319752,
+      "date": "2025-12-01",
+      "kind": "Dividends",
+      "symbol": "2222"
+    },
+    "1c47b1b2af243b29a127": {
+      "amount_base": -0.11,
+      "date": "2026-04-01",
+      "kind": "Withholding Tax",
+      "symbol": "VTI"
     },
     "20ce2f54d51178444c57": {
       "amount_base": -0.05,
@@ -86,6 +128,12 @@
       "date": "2025-12-11",
       "kind": "Withholding Tax",
       "symbol": "MSFT"
+    },
+    "2ce683d0f5da27a14b06": {
+      "amount_base": 0.56,
+      "date": "2026-04-10",
+      "kind": "Dividends",
+      "symbol": "TSM"
     },
     "2e5a7972429f59f76e4b": {
       "amount_base": -0.1,
@@ -110,6 +158,12 @@
       "date": "2025-10-21",
       "kind": "Dividends",
       "symbol": "MU"
+    },
+    "39813be1db83d0d92789": {
+      "amount_base": 0.56,
+      "date": "2026-01-09",
+      "kind": "Dividends",
+      "symbol": "TSM"
     },
     "3b1f4fceded14dd31876": {
       "amount_base": 0.16,
@@ -207,6 +261,12 @@
       "kind": "Dividends",
       "symbol": "2222"
     },
+    "53b71e8c3bcaa0f6a7c0": {
+      "amount_base": 0.52,
+      "date": "2026-02-02",
+      "kind": "Dividends",
+      "symbol": "JPM"
+    },
     "53d692e09657ae76db4a": {
       "amount_base": -0.03,
       "date": "2026-06-10",
@@ -218,6 +278,12 @@
       "date": "2026-06-30",
       "kind": "Withholding Tax",
       "symbol": "VOO"
+    },
+    "570dc4d98833795e719f": {
+      "amount_base": -0.1,
+      "date": "2026-07-10",
+      "kind": "Withholding Tax",
+      "symbol": "TSM"
     },
     "5992b34e9c705bad433e": {
       "amount_base": 0.03,
@@ -236,6 +302,12 @@
       "date": "2026-03-31",
       "kind": "Dividends",
       "symbol": "VTI"
+    },
+    "62fc53e17d56874a94ad": {
+      "amount_base": 2.530895,
+      "date": "2026-07-23",
+      "kind": "Dividends",
+      "symbol": "2222"
     },
     "6444587674a728899cc3": {
       "amount_base": -0.12,
@@ -272,6 +344,18 @@
       "date": "2026-04-06",
       "kind": "Dividends",
       "symbol": "WMT"
+    },
+    "70c794e1b37657d576e3": {
+      "amount_base": 0.74,
+      "date": "2026-04-01",
+      "kind": "Dividends",
+      "symbol": "VTI"
+    },
+    "71a41803ff83695bb476": {
+      "amount_base": -0.09,
+      "date": "2026-07-01",
+      "kind": "Withholding Tax",
+      "symbol": "VTI"
     },
     "759f00420b8608aa2099": {
       "amount_base": 0.18,
@@ -321,6 +405,12 @@
       "kind": "Dividends",
       "symbol": "IBKR"
     },
+    "8072b7d1a81ef728ac6b": {
+      "amount_base": 2.529945,
+      "date": "2026-04-07",
+      "kind": "Dividends",
+      "symbol": "2222"
+    },
     "8188fe42b314a2ed10cb": {
       "amount_base": 0.15,
       "date": "2026-03-26",
@@ -339,11 +429,23 @@
       "kind": "Dividends",
       "symbol": "IBKR"
     },
+    "8686d5d92d846f25dacc": {
+      "amount_base": 3.144228,
+      "date": "2025-12-01",
+      "kind": "Dividends",
+      "symbol": "2222"
+    },
     "87cc158545a7b121dd8b": {
       "amount_base": 0.26,
       "date": "2026-06-15",
       "kind": "Dividends",
       "symbol": "GOOG"
+    },
+    "8b85d76960ad4994ca45": {
+      "amount_base": 0.47,
+      "date": "2026-07-10",
+      "kind": "Dividends",
+      "symbol": "TSM"
     },
     "8c044639e3362ab3d962": {
       "amount_base": 0.45,
@@ -358,7 +460,7 @@
       "symbol": "META"
     },
     "8f75381c60f7bf15ac3d": {
-      "amount_base": 1,
+      "amount_base": 1.0,
       "date": "2025-12-11",
       "kind": "Dividends",
       "symbol": "MSFT"
@@ -453,6 +555,12 @@
       "kind": "Withholding Tax",
       "symbol": "META"
     },
+    "aea0b96282193b158381": {
+      "amount_base": 0.03,
+      "date": "2026-06-16",
+      "kind": "Dividends",
+      "symbol": "IBKR"
+    },
     "afafdc7d6e3247a5a448": {
       "amount_base": -0.03,
       "date": "2026-09-14",
@@ -464,6 +572,12 @@
       "date": "2026-05-14",
       "kind": "Dividends",
       "symbol": "AAPL"
+    },
+    "b0d7ec6655708abe71ea": {
+      "amount_base": -0.08,
+      "date": "2026-02-02",
+      "kind": "Withholding Tax",
+      "symbol": "JPM"
     },
     "b271290db793dec0c6c9": {
       "amount_base": 0.19,
@@ -620,6 +734,122 @@
       "date": "2026-06-30",
       "kind": "Dividends",
       "symbol": "VOO"
+    }
+  },
+  "external_flows": {
+    "06d2aeb2c9c027d277cd": {
+      "amount_base": 211.294615,
+      "amount_currency": 183.05,
+      "currency": "EUR",
+      "date": "2026-08-11"
+    },
+    "0911fadb484dcbed2c1e": {
+      "amount_base": -100.0,
+      "amount_currency": -100.0,
+      "currency": "USD",
+      "date": "2025-12-01"
+    },
+    "10dfbdfde3e28a8aa5af": {
+      "amount_base": -48.91,
+      "amount_currency": -48.91,
+      "currency": "USD",
+      "date": "2026-01-06"
+    },
+    "2d1f506bd6d47c9974da": {
+      "amount_base": -143.25,
+      "amount_currency": -143.25,
+      "currency": "USD",
+      "date": "2026-01-12"
+    },
+    "2efb0eae7ccd291d977f": {
+      "amount_base": 249.31335,
+      "amount_currency": 214.5,
+      "currency": "EUR",
+      "date": "2026-09-07"
+    },
+    "3cd5de73eb40bd9d4e5c": {
+      "amount_base": -1294.17,
+      "amount_currency": -1294.17,
+      "currency": "USD",
+      "date": "2026-06-03"
+    },
+    "54281e5e23c18a21b010": {
+      "amount_base": -121.75,
+      "amount_currency": -121.75,
+      "currency": "USD",
+      "date": "2026-02-17"
+    },
+    "66bd76e41226c1c29069": {
+      "amount_base": -288.95,
+      "amount_currency": -288.95,
+      "currency": "USD",
+      "date": "2026-10-09"
+    },
+    "7d4106cd1976c4ec46d7": {
+      "amount_base": -55.51,
+      "amount_currency": -55.51,
+      "currency": "USD",
+      "date": "2025-12-15"
+    },
+    "8296d0cf7b41d8302bd1": {
+      "amount_base": -56.46,
+      "amount_currency": -56.46,
+      "currency": "USD",
+      "date": "2025-12-02"
+    },
+    "a16db5313fd3425cb5e8": {
+      "amount_base": -133.62,
+      "amount_currency": -133.62,
+      "currency": "USD",
+      "date": "2026-02-24"
+    },
+    "b2371f528986a7516a95": {
+      "amount_base": -147.81,
+      "amount_currency": -147.81,
+      "currency": "USD",
+      "date": "2025-11-17"
+    },
+    "cedca7ba82fa6a357ec8": {
+      "amount_base": -100.0,
+      "amount_currency": -100.0,
+      "currency": "USD",
+      "date": "2025-11-26"
+    },
+    "d4067d433c195000455e": {
+      "amount_base": -1009.25104,
+      "amount_currency": -887.8,
+      "currency": "EUR",
+      "date": "2026-07-27"
+    },
+    "dc01e935fe00f6c0dbab": {
+      "amount_base": 55.33,
+      "amount_currency": 55.33,
+      "currency": "USD",
+      "date": "2025-12-04"
+    },
+    "e61133e1ee784dfc286d": {
+      "amount_base": -159.681034,
+      "amount_currency": -137.87,
+      "currency": "EUR",
+      "date": "2025-11-11"
+    },
+    "eb2b71ad5a50a8eb250c": {
+      "amount_base": -52.09,
+      "amount_currency": -52.09,
+      "currency": "USD",
+      "date": "2026-01-05"
+    },
+    "f1b8e8794f3a1c0d35e4": {
+      "amount_base": 2565.20628,
+      "amount_currency": 2209.48,
+      "currency": "EUR",
+      "date": "2025-10-22"
+    },
+    "fe6866911ae8a1fff032": {
+      "amount_base": -230.4,
+      "amount_currency": -200.0,
+      "currency": "EUR",
+      "date": "2025-11-03"
     }
   },
   "fx_usd_eur": {
@@ -887,6 +1117,868 @@
     "2026-10-20": 0.89166
   },
   "holdings": {
+    "2026-07-31": [
+      {
+        "asset_class": "STK",
+        "cost_base": 359.55361,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 40.276391,
+        "quantity": 1.9917,
+        "symbol": "NVDA",
+        "value_base": 399.83
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 301.241693,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 85.358307,
+        "quantity": 1.2515,
+        "symbol": "AAPL",
+        "value_base": 386.6
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 288.372877,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 97.417122,
+        "quantity": 1.0817,
+        "symbol": "GOOG",
+        "value_base": 385.79
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 323.998027,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -35.638028,
+        "quantity": 0.6205,
+        "symbol": "MSFT",
+        "value_base": 288.36
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 183.201603,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": -2.521603,
+        "quantity": 0.72,
+        "symbol": "ABBV",
+        "value_base": 180.68
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.062762,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 16.757238,
+        "quantity": 0.7821,
+        "symbol": "IBKR",
+        "value_base": 68.82
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 22.014223,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 4.195777,
+        "quantity": 0.0965,
+        "symbol": "AMZN",
+        "value_base": 26.21
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 21.271139,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -6.211139,
+        "quantity": 0.0484,
+        "symbol": "TSLA",
+        "value_base": 15.06
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 0.114752,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": -0.004752,
+        "quantity": 0.0001,
+        "symbol": "LLY",
+        "value_base": 0.11
+      }
+    ],
+    "2026-08-07": [
+      {
+        "asset_class": "STK",
+        "cost_base": 359.55361,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 86.506391,
+        "quantity": 1.9917,
+        "symbol": "NVDA",
+        "value_base": 446.06
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 301.241693,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 90.888306,
+        "quantity": 1.2515,
+        "symbol": "AAPL",
+        "value_base": 392.13
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 288.372877,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 93.977123,
+        "quantity": 1.0817,
+        "symbol": "GOOG",
+        "value_base": 382.35
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 323.998027,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -13.758026,
+        "quantity": 0.6205,
+        "symbol": "MSFT",
+        "value_base": 310.24
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 183.201603,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": -6.051603,
+        "quantity": 0.72,
+        "symbol": "ABBV",
+        "value_base": 177.15
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.062762,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 16.627239,
+        "quantity": 0.7821,
+        "symbol": "IBKR",
+        "value_base": 68.69
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 22.014223,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 4.475777,
+        "quantity": 0.0965,
+        "symbol": "AMZN",
+        "value_base": 26.49
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 21.271139,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -5.371139,
+        "quantity": 0.0484,
+        "symbol": "TSLA",
+        "value_base": 15.9
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 0.114752,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 0.005248,
+        "quantity": 0.0001,
+        "symbol": "LLY",
+        "value_base": 0.12
+      }
+    ],
+    "2026-08-14": [
+      {
+        "asset_class": "STK",
+        "cost_base": 1098.323843,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 1.916157,
+        "quantity": 1.5418,
+        "symbol": "VOO",
+        "value_base": 1100.24
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 359.55361,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 88.896391,
+        "quantity": 1.9917,
+        "symbol": "NVDA",
+        "value_base": 448.45
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 301.517792,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 81.632208,
+        "quantity": 1.2524,
+        "symbol": "AAPL",
+        "value_base": 383.15
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 288.372877,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 83.237123,
+        "quantity": 1.0817,
+        "symbol": "GOOG",
+        "value_base": 371.61
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 323.998027,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -16.598026,
+        "quantity": 0.6205,
+        "symbol": "MSFT",
+        "value_base": 307.4
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 183.201603,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": -3.591603,
+        "quantity": 0.72,
+        "symbol": "ABBV",
+        "value_base": 179.61
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.062762,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 19.937238,
+        "quantity": 0.7821,
+        "symbol": "IBKR",
+        "value_base": 72.0
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 22.014223,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 3.335777,
+        "quantity": 0.0965,
+        "symbol": "AMZN",
+        "value_base": 25.35
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 21.271139,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -4.701139,
+        "quantity": 0.0484,
+        "symbol": "TSLA",
+        "value_base": 16.57
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 0.114752,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 0.005248,
+        "quantity": 0.0001,
+        "symbol": "LLY",
+        "value_base": 0.12
+      }
+    ],
+    "2026-08-21": [
+      {
+        "asset_class": "STK",
+        "cost_base": 449.891699,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 63.198301,
+        "quantity": 2.3896,
+        "symbol": "NVDA",
+        "value_base": 513.09
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 281.602831,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 79.35717,
+        "quantity": 1.0562,
+        "symbol": "GOOG",
+        "value_base": 360.96
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 327.630038,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": 16.289962,
+        "quantity": 1.298,
+        "symbol": "ABBV",
+        "value_base": 343.92
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 261.288684,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 75.221315,
+        "quantity": 1.0878,
+        "symbol": "AAPL",
+        "value_base": 336.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 258.280863,
+        "currency": "USD",
+        "name": "MERCK & CO INC",
+        "pnl_base": 31.869137,
+        "quantity": 1.902,
+        "symbol": "MRK",
+        "value_base": 290.15
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 225.694056,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -16.744057,
+        "quantity": 0.4324,
+        "symbol": "MSFT",
+        "value_base": 208.95
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 178.611256,
+        "currency": "USD",
+        "name": "NETFLIX INC",
+        "pnl_base": 5.588744,
+        "quantity": 2.3143,
+        "symbol": "NFLX",
+        "value_base": 184.2
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.465139,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": 0.224861,
+        "quantity": 0.7489,
+        "symbol": "ORCL",
+        "value_base": 109.69
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 91.069094,
+        "currency": "USD",
+        "name": "CISCO SYSTEMS INC",
+        "pnl_base": -2.219094,
+        "quantity": 0.8002,
+        "symbol": "CSCO",
+        "value_base": 88.85
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.062762,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 21.357236,
+        "quantity": 0.7821,
+        "symbol": "IBKR",
+        "value_base": 73.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 82.918588,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -11.018588,
+        "quantity": 0.7983,
+        "symbol": "INTC",
+        "value_base": 71.9
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 64.778896,
+        "currency": "USD",
+        "name": "HOME DEPOT INC",
+        "pnl_base": -0.038896,
+        "quantity": 0.1929,
+        "symbol": "HD",
+        "value_base": 64.74
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 48.043727,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 2.546273,
+        "quantity": 0.0403,
+        "symbol": "LLY",
+        "value_base": 50.59
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 47.934635,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -2.684635,
+        "quantity": 0.0468,
+        "symbol": "MU",
+        "value_base": 45.25
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 46.927563,
+        "currency": "USD",
+        "name": "SANDISK CORP",
+        "pnl_base": -4.947563,
+        "quantity": 0.0263,
+        "symbol": "SNDK",
+        "value_base": 41.98
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 37.777444,
+        "currency": "USD",
+        "name": "VISA INC-CLASS A SHARES",
+        "pnl_base": 0.732556,
+        "quantity": 0.1038,
+        "symbol": "V",
+        "value_base": 38.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 40.394458,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -2.814458,
+        "quantity": 0.102,
+        "symbol": "AVGO",
+        "value_base": 37.58
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 22.014223,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 2.945777,
+        "quantity": 0.0965,
+        "symbol": "AMZN",
+        "value_base": 24.96
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 24.437674,
+        "currency": "USD",
+        "name": "JOHNSON & JOHNSON",
+        "pnl_base": 0.502326,
+        "quantity": 0.0923,
+        "symbol": "JNJ",
+        "value_base": 24.94
+      }
+    ],
+    "2026-08-28": [
+      {
+        "asset_class": "STK",
+        "cost_base": 449.891699,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 69.968302,
+        "quantity": 2.3896,
+        "symbol": "NVDA",
+        "value_base": 519.86
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 281.602831,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 80.547168,
+        "quantity": 1.0562,
+        "symbol": "GOOG",
+        "value_base": 362.15
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 261.288684,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 86.481317,
+        "quantity": 1.0878,
+        "symbol": "AAPL",
+        "value_base": 347.77
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 327.630038,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": 3.979962,
+        "quantity": 1.298,
+        "symbol": "ABBV",
+        "value_base": 331.61
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 258.280863,
+        "currency": "USD",
+        "name": "MERCK & CO INC",
+        "pnl_base": 23.879137,
+        "quantity": 1.902,
+        "symbol": "MRK",
+        "value_base": 282.16
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 225.694056,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -3.644055,
+        "quantity": 0.4324,
+        "symbol": "MSFT",
+        "value_base": 222.05
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 178.611256,
+        "currency": "USD",
+        "name": "NETFLIX INC",
+        "pnl_base": 10.508744,
+        "quantity": 2.3143,
+        "symbol": "NFLX",
+        "value_base": 189.12
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.465139,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": 3.504861,
+        "quantity": 0.7489,
+        "symbol": "ORCL",
+        "value_base": 112.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 91.069094,
+        "currency": "USD",
+        "name": "CISCO SYSTEMS INC",
+        "pnl_base": -3.099094,
+        "quantity": 0.8002,
+        "symbol": "CSCO",
+        "value_base": 87.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.062762,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 22.89724,
+        "quantity": 0.7821,
+        "symbol": "IBKR",
+        "value_base": 74.96
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 82.918588,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -11.498588,
+        "quantity": 0.7983,
+        "symbol": "INTC",
+        "value_base": 71.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 64.778896,
+        "currency": "USD",
+        "name": "HOME DEPOT INC",
+        "pnl_base": -1.088896,
+        "quantity": 0.1929,
+        "symbol": "HD",
+        "value_base": 63.69
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 48.043727,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": -0.703727,
+        "quantity": 0.0403,
+        "symbol": "LLY",
+        "value_base": 47.34
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 47.934635,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -4.274635,
+        "quantity": 0.0468,
+        "symbol": "MU",
+        "value_base": 43.66
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 37.777444,
+        "currency": "USD",
+        "name": "VISA INC-CLASS A SHARES",
+        "pnl_base": 1.832556,
+        "quantity": 0.1038,
+        "symbol": "V",
+        "value_base": 39.61
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 46.927563,
+        "currency": "USD",
+        "name": "SANDISK CORP",
+        "pnl_base": -7.877563,
+        "quantity": 0.0263,
+        "symbol": "SNDK",
+        "value_base": 39.05
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 40.394458,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -2.774458,
+        "quantity": 0.102,
+        "symbol": "AVGO",
+        "value_base": 37.62
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 22.014223,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 3.695777,
+        "quantity": 0.0965,
+        "symbol": "AMZN",
+        "value_base": 25.71
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 24.437674,
+        "currency": "USD",
+        "name": "JOHNSON & JOHNSON",
+        "pnl_base": 0.302326,
+        "quantity": 0.0923,
+        "symbol": "JNJ",
+        "value_base": 24.74
+      }
+    ],
+    "2026-09-04": [
+      {
+        "asset_class": "STK",
+        "cost_base": 449.891699,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 100.5783,
+        "quantity": 2.3896,
+        "symbol": "NVDA",
+        "value_base": 550.47
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 281.602831,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 72.54717,
+        "quantity": 1.0562,
+        "symbol": "GOOG",
+        "value_base": 354.15
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 261.288684,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 86.771316,
+        "quantity": 1.0878,
+        "symbol": "AAPL",
+        "value_base": 348.06
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 327.630038,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": 5.259962,
+        "quantity": 1.298,
+        "symbol": "ABBV",
+        "value_base": 332.89
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 258.280863,
+        "currency": "USD",
+        "name": "MERCK & CO INC",
+        "pnl_base": 27.649137,
+        "quantity": 1.902,
+        "symbol": "MRK",
+        "value_base": 285.93
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 225.694056,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -9.624056,
+        "quantity": 0.4324,
+        "symbol": "MSFT",
+        "value_base": 216.07
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 178.611256,
+        "currency": "USD",
+        "name": "NETFLIX INC",
+        "pnl_base": 2.478744,
+        "quantity": 2.3143,
+        "symbol": "NFLX",
+        "value_base": 181.09
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.465139,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": 9.444861,
+        "quantity": 0.7489,
+        "symbol": "ORCL",
+        "value_base": 118.91
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 91.069094,
+        "currency": "USD",
+        "name": "CISCO SYSTEMS INC",
+        "pnl_base": -3.689094,
+        "quantity": 0.8002,
+        "symbol": "CSCO",
+        "value_base": 87.38
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 82.918588,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -6.438588,
+        "quantity": 0.7983,
+        "symbol": "INTC",
+        "value_base": 76.48
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.062762,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 20.377237,
+        "quantity": 0.7821,
+        "symbol": "IBKR",
+        "value_base": 72.44
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 64.778896,
+        "currency": "USD",
+        "name": "HOME DEPOT INC",
+        "pnl_base": -2.848896,
+        "quantity": 0.1929,
+        "symbol": "HD",
+        "value_base": 61.93
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 47.934635,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -0.354635,
+        "quantity": 0.0468,
+        "symbol": "MU",
+        "value_base": 47.58
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 48.043727,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": -1.723727,
+        "quantity": 0.0403,
+        "symbol": "LLY",
+        "value_base": 46.32
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 46.927563,
+        "currency": "USD",
+        "name": "SANDISK CORP",
+        "pnl_base": -1.167563,
+        "quantity": 0.0263,
+        "symbol": "SNDK",
+        "value_base": 45.76
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 37.777444,
+        "currency": "USD",
+        "name": "VISA INC-CLASS A SHARES",
+        "pnl_base": 1.152556,
+        "quantity": 0.1038,
+        "symbol": "V",
+        "value_base": 38.93
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 40.394458,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -3.884458,
+        "quantity": 0.102,
+        "symbol": "AVGO",
+        "value_base": 36.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 24.437674,
+        "currency": "USD",
+        "name": "JOHNSON & JOHNSON",
+        "pnl_base": 0.962326,
+        "quantity": 0.0923,
+        "symbol": "JNJ",
+        "value_base": 25.4
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 22.014223,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 2.935777,
+        "quantity": 0.0965,
+        "symbol": "AMZN",
+        "value_base": 24.95
+      }
+    ],
     "2026-09-11": [
       {
         "asset_class": "STK",
@@ -1412,7 +2504,7 @@
       }
     ]
   },
-  "last_import": "2026-10-21T10:20:40+00:00",
+  "last_import": "2026-10-21T10:38:15+00:00",
   "nav": {
     "2025-10-20": {
       "cash_base": 98.363587076,
@@ -2667,127 +3759,5 @@
       "total_base": 2837.382499969
     }
   },
-  "schema": 2,
-  "external_flows": {
-    "f1b8e8794f3a1c0d35e4": {
-      "date": "2025-10-22",
-      "currency": "EUR",
-      "amount_currency": 2209.48,
-      "amount_base": 2565.20628
-    },
-    "fe6866911ae8a1fff032": {
-      "date": "2025-11-03",
-      "currency": "EUR",
-      "amount_currency": -200,
-      "amount_base": -230.4
-    },
-    "e61133e1ee784dfc286d": {
-      "date": "2025-11-11",
-      "currency": "EUR",
-      "amount_currency": -137.87,
-      "amount_base": -159.681034
-    },
-    "d4067d433c195000455e": {
-      "date": "2026-07-27",
-      "currency": "EUR",
-      "amount_currency": -887.8,
-      "amount_base": -1009.25104
-    },
-    "06d2aeb2c9c027d277cd": {
-      "date": "2026-08-11",
-      "currency": "EUR",
-      "amount_currency": 183.05,
-      "amount_base": 211.294615
-    },
-    "2efb0eae7ccd291d977f": {
-      "date": "2026-09-07",
-      "currency": "EUR",
-      "amount_currency": 214.5,
-      "amount_base": 249.31335
-    },
-    "b2371f528986a7516a95": {
-      "date": "2025-11-17",
-      "currency": "USD",
-      "amount_currency": -147.81,
-      "amount_base": -147.81
-    },
-    "cedca7ba82fa6a357ec8": {
-      "date": "2025-11-26",
-      "currency": "USD",
-      "amount_currency": -100,
-      "amount_base": -100
-    },
-    "0911fadb484dcbed2c1e": {
-      "date": "2025-12-01",
-      "currency": "USD",
-      "amount_currency": -100,
-      "amount_base": -100
-    },
-    "8296d0cf7b41d8302bd1": {
-      "date": "2025-12-02",
-      "currency": "USD",
-      "amount_currency": -56.46,
-      "amount_base": -56.46
-    },
-    "dc01e935fe00f6c0dbab": {
-      "date": "2025-12-04",
-      "currency": "USD",
-      "amount_currency": 55.33,
-      "amount_base": 55.33
-    },
-    "7d4106cd1976c4ec46d7": {
-      "date": "2025-12-15",
-      "currency": "USD",
-      "amount_currency": -55.51,
-      "amount_base": -55.51
-    },
-    "eb2b71ad5a50a8eb250c": {
-      "date": "2026-01-05",
-      "currency": "USD",
-      "amount_currency": -52.09,
-      "amount_base": -52.09
-    },
-    "10dfbdfde3e28a8aa5af": {
-      "date": "2026-01-06",
-      "currency": "USD",
-      "amount_currency": -48.91,
-      "amount_base": -48.91
-    },
-    "2d1f506bd6d47c9974da": {
-      "date": "2026-01-12",
-      "currency": "USD",
-      "amount_currency": -143.25,
-      "amount_base": -143.25
-    },
-    "54281e5e23c18a21b010": {
-      "date": "2026-02-17",
-      "currency": "USD",
-      "amount_currency": -121.75,
-      "amount_base": -121.75
-    },
-    "a16db5313fd3425cb5e8": {
-      "date": "2026-02-24",
-      "currency": "USD",
-      "amount_currency": -133.62,
-      "amount_base": -133.62
-    },
-    "3cd5de73eb40bd9d4e5c": {
-      "date": "2026-06-03",
-      "currency": "USD",
-      "amount_currency": -1294.17,
-      "amount_base": -1294.17
-    },
-    "66bd76e41226c1c29069": {
-      "date": "2026-10-09",
-      "currency": "USD",
-      "amount_currency": -288.95,
-      "amount_base": -288.95
-    }
-  },
-  "cashflow_coverage": [
-    [
-      "2025-10-21",
-      "2026-10-20"
-    ]
-  ]
+  "schema": 2
 }
