@@ -35,3 +35,21 @@ def test_cash_transactions_include_external_flows_without_double_counting():
     state=blank_state();ingest(xml,state);ingest(xml,state)
     assert len(state['external_flows'])==1 and len(state['cashflows'])==1
     assert state['cashflow_coverage']==[['2026-10-19','2026-10-20']]
+
+
+def test_first_funding_date_excludes_pre_inception_zero_nav():
+    s=blank_state()
+    s['inception_date']='2024-11-04'
+    s['nav']={'2024-11-01':{'total_base':0},
+              '2024-11-04':{'total_base':100},
+              '2024-11-05':{'total_base':120}}
+    s['fx_usd_eur']={'2024-11-01':1,'2024-11-04':1,'2024-11-05':1}
+    s['cashflow_coverage']=[['2024-11-04','2024-11-05']]
+    s['external_flows']={'initial':{'date':'2024-11-04','currency':'EUR',
+                                   'amount_currency':100,'amount_base':100}}
+    rows,meta=series(s)
+    assert meta['available']
+    assert meta['start']=='2024-11-04'
+    assert rows[0]['value_eur']==100
+    assert rows[0]['earned_eur']==0
+    assert rows[-1]['earned_eur']==20
