@@ -19,8 +19,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Check NAV records before November 4 2024 (no XML is published)
         env:
-          IBKR_FLEX_TOKEN: \${{ secrets.IBKR_FLEX_TOKEN }}
-          IBKR_FLEX_QUERY_ID: \${{ secrets.IBKR_FLEX_QUERY_ID }}
+          IBKR_FLEX_TOKEN: ${{ secrets.IBKR_FLEX_TOKEN }}
+          IBKR_FLEX_QUERY_ID: ${{ secrets.IBKR_FLEX_QUERY_ID }}
         run: |
           python - <<'PY'
           import os
