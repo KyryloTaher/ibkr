@@ -23,7 +23,8 @@ def coverage_ok(state, first, last):
     return cursor>through
 
 def series(state):
-    dates=sorted(state.get('nav',{}))
+    inception=state.get('inception_date')
+    dates=sorted(d for d in state.get('nav',{}) if inception is None or d>=inception)
     empty=lambda reason: ([],{'available':False,'reason':reason})
     if len(dates)<2: return empty('Need at least two dated IBKR NAV records.')
     start,end=dates[0],dates[-1]
