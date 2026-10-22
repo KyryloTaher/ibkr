@@ -14,17 +14,24 @@ def coverage_ok(state, first, last):
     for a,b in state.get('cashflow_coverage',[]):
         if a and b and a<=b: spans.append((date.fromisoformat(a),date.fromisoformat(b)))
     spans.sort()
-    cursor=date.fromisoformat(first)+timedelta(days=1)
+    # Weekend dates cannot contain the missing first post-snapshot business day's
+    # transactions. In particular Nov 1, 2024 was Friday; the first funding and
+    # cash-transaction coverage begin on Monday Nov 4.
+    def next_business_day(d):
+        while d.weekday() >= 5:
+            d += timedelta(days=1)
+        return d
+    cursor=next_business_day(date.fromisoformat(first)+timedelta(days=1))
     through=date.fromisoformat(last)
     for a,b in spans:
         if a>cursor: break
-        if b>=cursor: cursor=b+timedelta(days=1)
+        if b>=cursor: cursor=next_business_day(b+timedelta(days=1))
         if cursor>through: return True
     return cursor>through
 
 def series(state):
-    inception=state.get('inception_date')
-    dates=sorted(d for d in state.get('nav',{}) if inception is None or d>=inception)
+    chart_start=state.get('chart_start_date') or state.get('inception_date')
+    dates=sorted(d for d in state.get('nav',{}) if chart_start is None or d>=chart_start)
     empty=lambda reason: ([],{'available':False,'reason':reason})
     if len(dates)<2: return empty('Need at least two dated IBKR NAV records.')
     start,end=dates[0],dates[-1]
