@@ -4,7 +4,7 @@ const db=window.PORTFOLIO_DATA||{nav:{},holdings:{},fx_usd_eur:{},cashflows:{}};
 const $=(id)=>document.getElementById(id);
 const sorted=(xs)=>xs.slice().sort();
 const snapDates=sorted(Object.keys(db.holdings||{}));
-const navDates=sorted(Object.keys(db.nav||{}));
+const navDates=sorted(Object.keys(db.nav||{}).filter(d=>!db.inception_date||d>=db.inception_date));
 const fxDates=sorted(Object.keys(db.fx_usd_eur||{}));
 const eur=(n)=>Number.isFinite(n)?new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(n):'—';
 const fixed=(n,p=2)=>Number.isFinite(n)?new Intl.NumberFormat('en-IE',{maximumFractionDigits:p}).format(n):'—';
