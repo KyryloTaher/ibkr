@@ -1,0 +1,55 @@
+name: Check earlier IBKR NAV dates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/check-inception.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check NAV records before November 4 2024 (no XML is published)
+        env:
+          IBKR_FLEX_TOKEN: \${{ secrets.IBKR_FLEX_TOKEN }}
+          IBKR_FLEX_QUERY_ID: \${{ secrets.IBKR_FLEX_QUERY_ID }}
+        run: |
+          python - <<'PY'
+          import os
+          from defusedxml import ElementTree as ET
+          from src.fetch import get_report
+          from src.portfolio_data import day, n
+
+          begin, end = '2024-01-01', '2024-11-03'
+          response = get_report(os.environ['IBKR_FLEX_TOKEN'], os.environ['IBKR_FLEX_QUERY_ID'], begin, end)
+          root = ET.fromstring(response)
+          values={}
+          statements=root.findall('.//FlexStatement')
+          for statement in statements:
+              for row in statement.findall('./EquitySummaryInBase/EquitySummaryByReportDateInBase') + statement.findall('./NetAssetValue/NetAssetValueInBase'):
+                  d = day(row.get('reportDate'))
+                  total = n(row.get('total'))
+                  if d and begin <= d <= end and total is not None:
+                      values[d] = total
+          dates=sorted(values)
+          zeros=[d for d in dates if abs(values[d])<0.000001]
+          nonzeros=[d for d in dates if abs(values[d])>=0.000001]
+          print('Requested date range:',begin,'through',end)
+          print('Statement count:',len(statements))
+          print('NAV records before Nov 4:',len(dates))
+          print('Earliest NAV:',dates[0] if dates else '(none)')
+          print('Latest NAV:',dates[-1] if dates else '(none)')
+          print('Earliest zero balance:',zeros[0] if zeros else '(none)')
+          print('Latest zero balance:',zeros[-1] if zeros else '(none)')
+          print('Earliest positive/negative balance:',nonzeros[0] if nonzeros else '(none)')
+          print('Zero balance dates (first 15):',zeros[:15])
+          print('Nonzero values (first 5):',[(d,round(values[d],2)) for d in nonzeros[:5]])
+          PY
