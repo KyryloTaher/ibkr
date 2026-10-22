@@ -7,10 +7,11 @@ import requests
 from .portfolio_data import blank_state, ingest
 from .fetch import get_report, ReportError
 from .performance import series
+from .backfill import backfill_inception
 
 
 def fx_refresh(state, timeout=45):
-    all_dates=set(state['nav'])|set(state['holdings'])|{v['date'] for v in state['cashflows'].values()}
+    all_dates=set(state['nav'])|set(state['holdings'])|{v['date'] for v in state['cashflows'].values()}|{v['date'] for v in state.get('external_flows',{}).values()}
     missing=sorted(d for d in all_dates if d not in state['fx_usd_eur'])
     if not missing: return 0
     start=(date.fromisoformat(missing[0])-timedelta(days=8)).isoformat()
@@ -79,6 +80,7 @@ def main(argv=None):
     ap.add_argument('--sync',action='store_true',help='Fetch IBKR Flex using env secrets')
     ap.add_argument('--skip-fx',action='store_true',help='Offline preview: no network FX fetching')
     ap.add_argument('--backfill-weeks',type=int,default=0,help='Try up to N old weekly position-date reports, only retaining verified dates')
+    ap.add_argument('--inception',help='Backfill missing NAV and external flows from YYYY-MM-DD, only if needed')
     args=ap.parse_args(argv)
     path=Path(args.state)
     state=json.loads(path.read_text()) if path.exists() else blank_state()
@@ -89,9 +91,11 @@ def main(argv=None):
         print('Imported from IBKR:',ingest(report,state))
         if args.backfill_weeks>0:
             print('New verified historical position snapshots:',backfill_weekly(state,os.getenv('IBKR_FLEX_TOKEN'),os.getenv('IBKR_FLEX_QUERY_ID'),min(args.backfill_weeks,8)))
+    if args.inception:
+        print('Historical inception backfill:',backfill_inception(state,os.getenv('IBKR_FLEX_TOKEN'),os.getenv('IBKR_FLEX_QUERY_ID'),args.inception))
     if not args.skip_fx:
         print('New daily EUR FX rates:',fx_refresh(state))
-    if args.sync or args.xml or not path.exists():
+    if args.sync or args.xml or args.inception or not path.exists():
         path.parent.mkdir(parents=True,exist_ok=True)
         path.write_text(json.dumps(state,indent=2,sort_keys=True,ensure_ascii=True)+'\n',encoding='utf-8')
     build(state,args.public)
