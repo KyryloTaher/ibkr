@@ -53,3 +53,37 @@ def test_first_funding_date_excludes_pre_inception_zero_nav():
     assert rows[0]['value_eur']==100
     assert rows[0]['earned_eur']==0
     assert rows[-1]['earned_eur']==20
+
+
+
+def test_zero_balance_chart_start_and_first_funding_deposit():
+    s=blank_state()
+    s['inception_date']='2024-11-04'  # first funded date remains unchanged
+    s['chart_start_date']='2024-11-01'
+    s['nav']={'2024-11-01':{'total_base':0},
+              '2024-11-04':{'total_base':100},
+              '2024-11-05':{'total_base':120}}
+    s['fx_usd_eur']={'2024-11-01':1,'2024-11-04':1,'2024-11-05':1}
+    s['cashflow_coverage']=[['2024-11-04','2024-11-05']]
+    s['external_flows']={'initial':{'date':'2024-11-04','currency':'EUR',
+                                    'amount_currency':100,'amount_base':100}}
+    rows,meta=series(s)
+    assert meta['available']
+    assert meta['start']=='2024-11-01'
+    assert [r['date'] for r in rows]==['2024-11-01','2024-11-04','2024-11-05']
+    assert rows[0]['value_eur']==0
+    assert rows[0]['earned_eur']==0
+    assert rows[1]['net_flows_eur']==100
+    assert rows[1]['earned_eur']==0
+    assert rows[-1]['earned_eur']==20
+
+
+def test_zero_balance_start_still_rejects_unverified_weekday_cashflow_gap():
+    s=blank_state()
+    s['chart_start_date']='2024-10-30'
+    s['nav']={'2024-10-30':{'total_base':0},
+              '2024-11-05':{'total_base':120}}
+    s['fx_usd_eur']={'2024-10-30':1,'2024-11-05':1}
+    s['cashflow_coverage']=[['2024-11-04','2024-11-05']]
+    result, meta=series(s)
+    assert result==[] and not meta['available']
