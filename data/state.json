@@ -1088,6 +1088,7 @@
       "symbol": "VOO"
     }
   },
+  "chart_start_date": "2024-11-01",
   "external_flows": {
     "06d2aeb2c9c027d277cd": {
       "amount_base": 211.294615,
@@ -6374,6 +6375,5 @@
       "total_base": 2837.382499969
     }
   },
-  "schema": 2,
-  "chart_start_date": "2024-11-01"
+  "schema": 2
 }
