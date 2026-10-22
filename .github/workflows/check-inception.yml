@@ -28,21 +28,34 @@ jobs:
           from src.fetch import get_report
           from src.portfolio_data import day, n
 
-          begin, end = '2024-01-01', '2024-11-03'
-          response = get_report(os.environ['IBKR_FLEX_TOKEN'], os.environ['IBKR_FLEX_QUERY_ID'], begin, end)
-          root = ET.fromstring(response)
+          from src.fetch import ReportError
+          import time
+          lookups=[('2024-10-01','2024-11-04'),('2024-10-21','2024-11-04'),('2024-10-28','2024-11-04'),('2024-11-01','2024-11-04')]
+          root=None
+          for begin,end in lookups:
+              try:
+                  response=get_report(os.environ['IBKR_FLEX_TOKEN'], os.environ['IBKR_FLEX_QUERY_ID'],begin,end)
+                  root=ET.fromstring(response)
+                  print('Successful requested range:',begin,'through',end)
+                  break
+              except ReportError as exc:
+                  print('IBKR unavailable for:',begin,'through',end,':',str(exc))
+                  time.sleep(7)
+          if root is None:
+              raise RuntimeError('IBKR could not provide any short historical statement covering the first funded date.')
+          upper='2024-11-03'
           values={}
           statements=root.findall('.//FlexStatement')
           for statement in statements:
               for row in statement.findall('./EquitySummaryInBase/EquitySummaryByReportDateInBase') + statement.findall('./NetAssetValue/NetAssetValueInBase'):
                   d = day(row.get('reportDate'))
                   total = n(row.get('total'))
-                  if d and begin <= d <= end and total is not None:
+                  if d and d <= upper and total is not None:
                       values[d] = total
           dates=sorted(values)
           zeros=[d for d in dates if abs(values[d])<0.000001]
           nonzeros=[d for d in dates if abs(values[d])>=0.000001]
-          print('Requested date range:',begin,'through',end)
+          print('Looking for records before:',upper)
           print('Statement count:',len(statements))
           print('NAV records before Nov 4:',len(dates))
           print('Earliest NAV:',dates[0] if dates else '(none)')
