@@ -33,6 +33,7 @@ def backfill_inception(state: dict, token: str, query_id: str, inception: str):
         raise ValueError('Cannot backfill without an existing dated NAV archive.')
     previous_earliest = min(nav)
     if date.fromisoformat(previous_earliest) <= requested:
+        state['inception_date'] = inception
         return {'status': 'already archived', 'earliest_nav': previous_earliest, 'requests': 0}
 
     windows = missing_ranges(inception, previous_earliest)
@@ -57,5 +58,6 @@ def backfill_inception(state: dict, token: str, query_id: str, inception: str):
     earliest = min(state['nav'])
     if earliest >= previous_earliest:
         raise ValueError('Backfill did not extend the dated NAV history.')
+    state['inception_date'] = inception
     return {'status': 'extended', 'earliest_nav': earliest, 'requests': len(windows),
             'historical_nav_records_returned': imported}
