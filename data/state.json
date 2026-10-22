@@ -242,7 +242,7 @@
       "symbol": "IBKR"
     },
     "365f1fca3ea56b93a7ee": {
-      "amount_base": 2.0,
+      "amount_base": 2,
       "date": "2025-09-23",
       "kind": "Dividends",
       "symbol": "VT"
@@ -668,7 +668,7 @@
       "symbol": "META"
     },
     "8f75381c60f7bf15ac3d": {
-      "amount_base": 1.0,
+      "amount_base": 1,
       "date": "2025-12-11",
       "kind": "Dividends",
       "symbol": "MSFT"
@@ -1096,8 +1096,8 @@
       "date": "2026-08-11"
     },
     "0911fadb484dcbed2c1e": {
-      "amount_base": -100.0,
-      "amount_currency": -100.0,
+      "amount_base": -100,
+      "amount_currency": -100,
       "currency": "USD",
       "date": "2025-12-01"
     },
@@ -1180,8 +1180,8 @@
       "date": "2024-11-04"
     },
     "cedca7ba82fa6a357ec8": {
-      "amount_base": -100.0,
-      "amount_currency": -100.0,
+      "amount_base": -100,
+      "amount_currency": -100,
       "currency": "USD",
       "date": "2025-11-26"
     },
@@ -1217,7 +1217,7 @@
     },
     "fe6866911ae8a1fff032": {
       "amount_base": -230.4,
-      "amount_currency": -200.0,
+      "amount_currency": -200,
       "currency": "EUR",
       "date": "2025-11-03"
     }
@@ -1932,7 +1932,7 @@
         "currency": "SAR",
         "name": "SAUDI ARABIAN OIL CO",
         "pnl_base": 4.61452411,
-        "quantity": 25.0,
+        "quantity": 25,
         "symbol": "2222",
         "value_base": 176.62983
       },
@@ -2036,7 +2036,7 @@
         "pnl_base": -106.033419,
         "quantity": 0.7105,
         "symbol": "MSFT",
-        "value_base": 265.0
+        "value_base": 265
       },
       {
         "asset_class": "STK",
@@ -2074,7 +2074,7 @@
         "currency": "SAR",
         "name": "SAUDI ARABIAN OIL CO",
         "pnl_base": 2.08269057,
-        "quantity": 25.0,
+        "quantity": 25,
         "symbol": "2222",
         "value_base": 174.020515
       },
@@ -2236,7 +2236,7 @@
         "currency": "SAR",
         "name": "SAUDI ARABIAN OIL CO",
         "pnl_base": 1.81674163,
-        "quantity": 25.0,
+        "quantity": 25,
         "symbol": "2222",
         "value_base": 173.78685
       },
@@ -2408,7 +2408,7 @@
         "currency": "SAR",
         "name": "SAUDI ARABIAN OIL CO",
         "pnl_base": 5.94523484,
-        "quantity": 25.0,
+        "quantity": 25,
         "symbol": "2222",
         "value_base": 177.9218
       },
@@ -2560,7 +2560,7 @@
         "currency": "SAR",
         "name": "SAUDI ARABIAN OIL CO",
         "pnl_base": 5.67717915,
-        "quantity": 25.0,
+        "quantity": 25,
         "symbol": "2222",
         "value_base": 177.60209
       },
@@ -2980,7 +2980,7 @@
         "pnl_base": 19.937238,
         "quantity": 0.7821,
         "symbol": "IBKR",
-        "value_base": 72.0
+        "value_base": 72
       },
       {
         "asset_class": "STK",
@@ -4118,8 +4118,8 @@
   "last_import": "2026-10-22T09:29:36+00:00",
   "nav": {
     "2024-11-01": {
-      "cash_base": 0.0,
-      "total_base": 0.0
+      "cash_base": 0,
+      "total_base": 0
     },
     "2024-11-04": {
       "cash_base": 409.262994,
@@ -6374,5 +6374,6 @@
       "total_base": 2837.382499969
     }
   },
-  "schema": 2
+  "schema": 2,
+  "chart_start_date": "2024-11-01"
 }
