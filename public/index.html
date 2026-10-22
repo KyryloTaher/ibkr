@@ -21,7 +21,11 @@
       <article class="metric"><small>UNREALIZED P&L</small><div class="metric-value" id="pnl-value">—</div><div class="metric-desc" id="pnl-pct">Profit / loss on open positions</div></article>
     </section>
     <section class="panels">
-      <article class="panel history"><div class="panel-header"><div><h2>Portfolio value over time</h2><p>Historical account NAV in EUR, sampled at period end</p></div><span class="chip" id="nav-period">Weekly</span></div><div id="nav-chart" class="chart-box"></div><div class="chart-footer"><span id="history-count">—</span><span>Not adjusted for deposits / withdrawals</span></div></article>
+      <article class="panel history"><div class="panel-header"><div><h2>Portfolio value over time</h2><p>Historical account NAV in EUR, sampled at period end, with the first actual recorded date preserved</p></div><span class="chip" id="nav-period">Weekly</span></div>
+      <div class="comparison-charts">
+        <div class="comparison-chart"><h3>All time</h3><p id="nav-all-range">—</p><div id="nav-chart" class="chart-box"></div></div>
+        <div class="comparison-chart"><h3>Last 365 days</h3><p id="nav-year-range">—</p><div id="nav-chart-year" class="chart-box"></div></div>
+      </div><div class="chart-footer"><span id="history-count">—</span><span>Not adjusted for deposits / withdrawals</span></div></article>
       <article class="panel allocation"><div class="panel-header"><div><h2>Asset allocation</h2><p>Share of current invested securities</p></div><span class="chip" id="count-label">—</span></div><div id="allocation" class="allocation-body"></div><div class="chart-footer"><span>Cash not included in allocation %</span><span>Market value basis</span></div></article>
     </section>
     <section class="panel positions"><div class="panel-header"><div><h2>Investment breakdown</h2><p>Based on a real IBKR position snapshot · values translated into EUR at the report date</p></div><button id="csv-export" class="outline">Export CSV ↓</button></div><div class="table-scroller"><table><thead><tr><th>Asset</th><th>Quantity</th><th>Invested (cost)</th><th>Market value</th><th>Allocation</th><th>% of NAV</th><th>Unrealized P&L</th></tr></thead><tbody id="holdings-table"></tbody></table></div></section>
