@@ -4,7 +4,7 @@ const db=window.PORTFOLIO_DATA||{nav:{},holdings:{},fx_usd_eur:{},cashflows:{}};
 const $=(id)=>document.getElementById(id);
 const sorted=(xs)=>xs.slice().sort();
 const snapDates=sorted(Object.keys(db.holdings||{}));
-const navDates=sorted(Object.keys(db.nav||{}).filter(d=>!db.inception_date||d>=db.inception_date));
+const navDates=sorted(Object.keys(db.nav||{}).filter(d=>d>=(db.chart_start_date||db.inception_date||'0000-01-01')));
 const fxDates=sorted(Object.keys(db.fx_usd_eur||{}));
 const eur=(n)=>Number.isFinite(n)?new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(n):'—';
 const fixed=(n,p=2)=>Number.isFinite(n)?new Intl.NumberFormat('en-IE',{maximumFractionDigits:p}).format(n):'—';
@@ -16,7 +16,23 @@ function amount(d,v){if(v===null||v===undefined)return NaN;let r=rate(d);return 
 function bucket(d){if(period==='Yearly')return d.slice(0,4);if(period==='Monthly')return d.slice(0,7);if(period==='Quarterly')return d.slice(0,4)+' Q'+(Math.floor((Number(d.slice(5,7))-1)/3)+1);let dt=new Date(d+'T12:00:00Z');let day=dt.getUTCDay();dt.setUTCDate(dt.getUTCDate()+(5-day+7)%7);return dt.toISOString().slice(0,10);}
 function sampleDates(dates){let m=new Map();dates.forEach(d=>m.set(bucket(d),d));return [...m.values()];}
 function historyDates(dates){const sampled=sampleDates(dates);if(dates.length && sampled[0]!==dates[0])sampled.unshift(dates[0]);return sampled;}
-function renderHistory(){const available=navDates.filter(d=>Number.isFinite(amount(d,db.nav[d].total_base)));const samples=historyDates(available);const points=samples.map(d=>({d,v:amount(d,db.nav[d].total_base)}));window.PortfolioChart.render($('nav-chart'),points.map(p=>({date:p.d,value:p.v})),{title:'Portfolio value over time',yLabel:'Portfolio value (EUR)'});text('history-count',`${points.length} values, including the actual starting date · ${navDates.length} daily NAV dates from IBKR`);text('nav-period',period);const missing=navDates.length-available.length;const msg=$('fx-notice');msg.hidden=!(missing>0);if(missing>0)msg.textContent='FX conversion for some historical NAV dates is not yet complete. Automatic synchronization downloads ECB rates to fill in those dates.';}
+function renderHistory(){
+const available=navDates.filter(d=>Number.isFinite(amount(d,db.nav[d].total_base)));
+const latest=available.at(-1);
+const cutoff=latest?new Date(Date.parse(latest+'T12:00:00Z')-364*86400000).toISOString().slice(0,10):null;
+const yearDates=available.filter(d=>d>=cutoff);
+const allPoints=historyDates(available).map(d=>({date:d,value:amount(d,db.nav[d].total_base)}));
+const yearPoints=historyDates(yearDates).map(d=>({date:d,value:amount(d,db.nav[d].total_base)}));
+window.PortfolioChart.render($('nav-chart'),allPoints,{title:'Portfolio value — all time',yLabel:'Portfolio value (EUR)'});
+window.PortfolioChart.render($('nav-chart-year'),yearPoints,{title:'Portfolio value — last 365 days',yLabel:'Portfolio value (EUR)'});
+text('nav-all-range',available.length?available[0]+' — '+latest:'No data');
+text('nav-year-range',latest?cutoff+' — '+latest:'No data');
+text('history-count',`${allPoints.length} all-time points · ${yearPoints.length} last-year points · ${navDates.length} recorded NAV dates`);
+text('nav-period',period);
+const missing=navDates.length-available.length;
+const msg=$('fx-notice');msg.hidden=!(missing>0);
+if(missing>0)msg.textContent='FX conversion for some historical NAV dates is not yet complete. Automatic synchronization downloads ECB rates to fill in those dates.';
+}
 function render(){const latest=navDates.at(-1);text('last-date',latest||'—');text('last-sync',`Positions: ${snapDates.at(-1)||'not available'} · End-of-day`);
 renderHistory();const options=sampleDates(snapDates);$('snapshot').innerHTML='';options.forEach(d=>{let op=document.createElement('option');op.value=d;op.textContent=d;$('snapshot').appendChild(op);});if(!options.includes(selected))selected=options.at(-1);$('snapshot').value=selected||'';
 const rows=(db.holdings[selected]||[]).slice().sort((a,b)=>b.value_base-a.value_base);
