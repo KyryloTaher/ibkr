@@ -35,3 +35,25 @@
 .chart-tooltip.below-point{transform:translate(-50%,0)}
 .chart-tooltip[hidden]{display:none}
 @media(max-width:650px){.chart-box{height:285px;padding:8px 0 6px}.performance-chart{height:285px}}
+
+
+/* Paired historical comparisons: entire archive and trailing 365 calendar days. */
+.panels{grid-template-columns:minmax(0,1fr)}
+.performance-charts{grid-template-columns:repeat(2,minmax(0,1fr))}
+.comparison-charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:14px 23px 21px}
+.comparison-chart,.performance-charts>div{border:1px solid #eef2f4;border-radius:13px;padding:16px;min-width:0}
+.comparison-chart h3{font-size:14px;margin:0 0 4px}
+.comparison-chart p{font-size:11px;color:#8a9ba8;margin:0;min-height:17px}
+.comparison-chart .chart-box{height:335px;padding:8px 4px}
+.performance-charts .performance-chart{height:335px}
+.allocation-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 26px;min-height:0}
+@media(max-width:1080px){
+ .comparison-charts,.performance-charts{grid-template-columns:1fr}
+ .comparison-chart .chart-box,.performance-charts .performance-chart{height:330px}
+}
+@media(max-width:650px){
+ .comparison-charts,.performance-charts{padding:10px 12px;gap:12px}
+ .comparison-chart,.performance-charts>div{padding:12px}
+ .comparison-chart .chart-box,.performance-charts .performance-chart{height:282px}
+ .allocation-body{grid-template-columns:1fr}
+}
