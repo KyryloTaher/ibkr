@@ -1,5 +1,11 @@
 {
   "backfill_checked": [
+    "2026-01-02",
+    "2026-01-09",
+    "2026-01-16",
+    "2026-01-23",
+    "2026-01-30",
+    "2026-02-06",
     "2026-02-13",
     "2026-02-20",
     "2026-02-27",
@@ -1866,6 +1872,1218 @@
         "quantity": 0.5906,
         "symbol": "IBKR",
         "value_base": 39.53
+      }
+    ],
+    "2026-01-02": [
+      {
+        "asset_class": "STK",
+        "cost_base": 551.835405,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 25.474595,
+        "quantity": 3.057,
+        "symbol": "NVDA",
+        "value_base": 577.31
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 451.752831,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 54.19717,
+        "quantity": 1.8669,
+        "symbol": "AAPL",
+        "value_base": 505.95
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 412.646019,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 76.13398,
+        "quantity": 1.5501,
+        "symbol": "GOOG",
+        "value_base": 488.78
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 489.69003,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -46.690029,
+        "quantity": 0.9367,
+        "symbol": "MSFT",
+        "value_base": 443.0
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 372.881849,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 3.088151,
+        "quantity": 0.5984,
+        "symbol": "VOO",
+        "value_base": 375.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 306.659226,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": -2.059226,
+        "quantity": 1.3448,
+        "symbol": "AMZN",
+        "value_base": 304.6
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.977555,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": 28.462443,
+        "quantity": 0.8101,
+        "symbol": "VTI",
+        "value_base": 272.44
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 222.110077,
+        "currency": "USD",
+        "name": "ISHARES BITCOIN TRUST ETF",
+        "pnl_base": 8.399923,
+        "quantity": 4.5251,
+        "symbol": "IBIT",
+        "value_base": 230.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 239.480798,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -17.560798,
+        "quantity": 0.6384,
+        "symbol": "AVGO",
+        "value_base": 221.92
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 165.989007,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": 47.030994,
+        "quantity": 0.6665,
+        "symbol": "TSM",
+        "value_base": 213.02
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.270563,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -32.470563,
+        "quantity": 0.3241,
+        "symbol": "META",
+        "value_base": 210.8
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 220.37794392,
+        "currency": "SAR",
+        "name": "SAUDI ARABIAN OIL CO",
+        "pnl_base": -16.61467992,
+        "quantity": 32.0,
+        "symbol": "2222",
+        "value_base": 203.763264
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 195.099193,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -7.869193,
+        "quantity": 0.4274,
+        "symbol": "TSLA",
+        "value_base": 187.23
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 132.663783,
+        "currency": "USD",
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "pnl_base": 5.066217,
+        "quantity": 0.2772,
+        "symbol": "BRK B",
+        "value_base": 137.73
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 105.608452,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 25.761548,
+        "quantity": 0.1216,
+        "symbol": "LLY",
+        "value_base": 131.37
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 103.890594,
+        "currency": "USD",
+        "name": "WALMART INC",
+        "pnl_base": 11.599406,
+        "quantity": 1.0242,
+        "symbol": "WMT",
+        "value_base": 115.49
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.348661,
+        "currency": "USD",
+        "name": "JPMORGAN CHASE & CO",
+        "pnl_base": 4.501339,
+        "quantity": 0.3498,
+        "symbol": "JPM",
+        "value_base": 113.85
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.082604,
+        "currency": "USD",
+        "name": "TENCENT HOLDINGS LTD-UNS ADR",
+        "pnl_base": -0.602604,
+        "quantity": 1.1854,
+        "symbol": "TCEHY",
+        "value_base": 95.48
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.696386,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -25.226386,
+        "quantity": 0.3652,
+        "symbol": "ORCL",
+        "value_base": 71.47
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.374052,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 2.025948,
+        "quantity": 0.8092,
+        "symbol": "IBKR",
+        "value_base": 54.4
+      }
+    ],
+    "2026-01-09": [
+      {
+        "asset_class": "STK",
+        "cost_base": 551.835405,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 13.284594,
+        "quantity": 3.057,
+        "symbol": "NVDA",
+        "value_base": 565.12
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 412.646019,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 97.553981,
+        "quantity": 1.5501,
+        "symbol": "GOOG",
+        "value_base": 510.2
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 451.752831,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 32.467168,
+        "quantity": 1.8669,
+        "symbol": "AAPL",
+        "value_base": 484.22
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 489.69003,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -40.75003,
+        "quantity": 0.9367,
+        "symbol": "MSFT",
+        "value_base": 448.94
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 372.881849,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 9.078151,
+        "quantity": 0.5984,
+        "symbol": "VOO",
+        "value_base": 381.96
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 306.659226,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 26.020774,
+        "quantity": 1.3448,
+        "symbol": "AMZN",
+        "value_base": 332.68
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.977555,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": 33.402444,
+        "quantity": 0.8101,
+        "symbol": "VTI",
+        "value_base": 277.38
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 222.110077,
+        "currency": "USD",
+        "name": "ISHARES BITCOIN TRUST ETF",
+        "pnl_base": 9.389923,
+        "quantity": 4.5251,
+        "symbol": "IBIT",
+        "value_base": 231.5
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 166.404474,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": 49.715527,
+        "quantity": 0.6678,
+        "symbol": "TSM",
+        "value_base": 216.12
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.270563,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -31.610563,
+        "quantity": 0.3241,
+        "symbol": "META",
+        "value_base": 211.66
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 226.462954,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -18.202954,
+        "quantity": 0.6037,
+        "symbol": "AVGO",
+        "value_base": 208.26
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 220.38620861,
+        "currency": "SAR",
+        "name": "SAUDI ARABIAN OIL CO",
+        "pnl_base": -18.57792061,
+        "quantity": 32.0,
+        "symbol": "2222",
+        "value_base": 201.808288
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 195.099193,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -4.899193,
+        "quantity": 0.4274,
+        "symbol": "TSLA",
+        "value_base": 190.2
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 132.663783,
+        "currency": "USD",
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "pnl_base": 5.686217,
+        "quantity": 0.2772,
+        "symbol": "BRK B",
+        "value_base": 138.35
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 105.608452,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 23.721548,
+        "quantity": 0.1216,
+        "symbol": "LLY",
+        "value_base": 129.33
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 104.093675,
+        "currency": "USD",
+        "name": "WALMART INC",
+        "pnl_base": 13.416325,
+        "quantity": 1.026,
+        "symbol": "WMT",
+        "value_base": 117.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.348661,
+        "currency": "USD",
+        "name": "JPMORGAN CHASE & CO",
+        "pnl_base": 5.801339,
+        "quantity": 0.3498,
+        "symbol": "JPM",
+        "value_base": 115.15
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.082604,
+        "currency": "USD",
+        "name": "TENCENT HOLDINGS LTD-UNS ADR",
+        "pnl_base": -2.502604,
+        "quantity": 1.1854,
+        "symbol": "TCEHY",
+        "value_base": 93.58
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.696386,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -24.196386,
+        "quantity": 0.3652,
+        "symbol": "ORCL",
+        "value_base": 72.5
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.374052,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 4.645948,
+        "quantity": 0.8092,
+        "symbol": "IBKR",
+        "value_base": 57.02
+      }
+    ],
+    "2026-01-16": [
+      {
+        "asset_class": "STK",
+        "cost_base": 551.835405,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 17.474595,
+        "quantity": 3.057,
+        "symbol": "NVDA",
+        "value_base": 569.31
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 412.646019,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 99.413981,
+        "quantity": 1.5501,
+        "symbol": "GOOG",
+        "value_base": 512.06
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 451.752831,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 25.297168,
+        "quantity": 1.8669,
+        "symbol": "AAPL",
+        "value_base": 477.05
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 489.69003,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -58.94003,
+        "quantity": 0.9367,
+        "symbol": "MSFT",
+        "value_base": 430.75
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 372.881849,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 7.758151,
+        "quantity": 0.5984,
+        "symbol": "VOO",
+        "value_base": 380.64
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 306.659226,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 14.910774,
+        "quantity": 1.3448,
+        "symbol": "AMZN",
+        "value_base": 321.57
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 223.124589,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": 30.25541,
+        "quantity": 0.7412,
+        "symbol": "VTI",
+        "value_base": 253.38
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 222.110077,
+        "currency": "USD",
+        "name": "ISHARES BITCOIN TRUST ETF",
+        "pnl_base": 23.329923,
+        "quantity": 4.5251,
+        "symbol": "IBIT",
+        "value_base": 245.44
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 166.404474,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": 62.245527,
+        "quantity": 0.6678,
+        "symbol": "TSM",
+        "value_base": 228.65
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 226.462954,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -14.132954,
+        "quantity": 0.6037,
+        "symbol": "AVGO",
+        "value_base": 212.33
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 220.3944733,
+        "currency": "SAR",
+        "name": "SAUDI ARABIAN OIL CO",
+        "pnl_base": -8.7651613,
+        "quantity": 32.0,
+        "symbol": "2222",
+        "value_base": 211.629312
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.270563,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -42.250563,
+        "quantity": 0.3241,
+        "symbol": "META",
+        "value_base": 201.02
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 195.099193,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -8.109193,
+        "quantity": 0.4274,
+        "symbol": "TSLA",
+        "value_base": 186.99
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 132.663783,
+        "currency": "USD",
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "pnl_base": 4.076217,
+        "quantity": 0.2772,
+        "symbol": "BRK B",
+        "value_base": 136.74
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 105.608452,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 20.661548,
+        "quantity": 0.1216,
+        "symbol": "LLY",
+        "value_base": 126.27
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 104.093675,
+        "currency": "USD",
+        "name": "WALMART INC",
+        "pnl_base": 18.716325,
+        "quantity": 1.026,
+        "symbol": "WMT",
+        "value_base": 122.81
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.348661,
+        "currency": "USD",
+        "name": "JPMORGAN CHASE & CO",
+        "pnl_base": -0.048661,
+        "quantity": 0.3498,
+        "symbol": "JPM",
+        "value_base": 109.3
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.082604,
+        "currency": "USD",
+        "name": "TENCENT HOLDINGS LTD-UNS ADR",
+        "pnl_base": -2.912604,
+        "quantity": 1.1854,
+        "symbol": "TCEHY",
+        "value_base": 93.17
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.696386,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -26.906386,
+        "quantity": 0.3652,
+        "symbol": "ORCL",
+        "value_base": 69.79
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.374052,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 6.985949,
+        "quantity": 0.8092,
+        "symbol": "IBKR",
+        "value_base": 59.36
+      }
+    ],
+    "2026-01-23": [
+      {
+        "asset_class": "STK",
+        "cost_base": 551.835405,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 21.874595,
+        "quantity": 3.057,
+        "symbol": "NVDA",
+        "value_base": 573.71
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 412.646019,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 96.45398,
+        "quantity": 1.5501,
+        "symbol": "GOOG",
+        "value_base": 509.1
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 451.752831,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 11.317168,
+        "quantity": 1.8669,
+        "symbol": "AAPL",
+        "value_base": 463.07
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 489.69003,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -53.23003,
+        "quantity": 0.9367,
+        "symbol": "MSFT",
+        "value_base": 436.46
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 372.881849,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 6.398151,
+        "quantity": 0.5984,
+        "symbol": "VOO",
+        "value_base": 379.28
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 306.659226,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 14.960774,
+        "quantity": 1.3448,
+        "symbol": "AMZN",
+        "value_base": 321.62
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 223.124589,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": 29.295411,
+        "quantity": 0.7412,
+        "symbol": "VTI",
+        "value_base": 252.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 222.110077,
+        "currency": "USD",
+        "name": "ISHARES BITCOIN TRUST ETF",
+        "pnl_base": 7.309923,
+        "quantity": 4.5251,
+        "symbol": "IBIT",
+        "value_base": 229.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 166.404474,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": 57.225525,
+        "quantity": 0.6678,
+        "symbol": "TSM",
+        "value_base": 223.63
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.270563,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -29.770563,
+        "quantity": 0.3241,
+        "symbol": "META",
+        "value_base": 213.5
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 206.61981872,
+        "currency": "SAR",
+        "name": "SAUDI ARABIAN OIL CO",
+        "pnl_base": -4.69729472,
+        "quantity": 30.0,
+        "symbol": "2222",
+        "value_base": 201.922524
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 226.462954,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -33.252954,
+        "quantity": 0.6037,
+        "symbol": "AVGO",
+        "value_base": 193.21
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 195.099193,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -3.169193,
+        "quantity": 0.4274,
+        "symbol": "TSLA",
+        "value_base": 191.93
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 132.663783,
+        "currency": "USD",
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "pnl_base": 0.106217,
+        "quantity": 0.2772,
+        "symbol": "BRK B",
+        "value_base": 132.77
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 105.608452,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 23.811548,
+        "quantity": 0.1216,
+        "symbol": "LLY",
+        "value_base": 129.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 104.093675,
+        "currency": "USD",
+        "name": "WALMART INC",
+        "pnl_base": 16.696325,
+        "quantity": 1.026,
+        "symbol": "WMT",
+        "value_base": 120.79
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.348661,
+        "currency": "USD",
+        "name": "JPMORGAN CHASE & CO",
+        "pnl_base": -5.208661,
+        "quantity": 0.3498,
+        "symbol": "JPM",
+        "value_base": 104.14
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.082604,
+        "currency": "USD",
+        "name": "TENCENT HOLDINGS LTD-UNS ADR",
+        "pnl_base": -5.142604,
+        "quantity": 1.1854,
+        "symbol": "TCEHY",
+        "value_base": 90.94
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.696386,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -31.996386,
+        "quantity": 0.3652,
+        "symbol": "ORCL",
+        "value_base": 64.7
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.374052,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 10.405948,
+        "quantity": 0.8092,
+        "symbol": "IBKR",
+        "value_base": 62.78
+      }
+    ],
+    "2026-01-30": [
+      {
+        "asset_class": "STK",
+        "cost_base": 551.835405,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 32.444596,
+        "quantity": 3.057,
+        "symbol": "NVDA",
+        "value_base": 584.28
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 412.646019,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 112.113981,
+        "quantity": 1.5501,
+        "symbol": "GOOG",
+        "value_base": 524.76
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 451.752831,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 32.66717,
+        "quantity": 1.8669,
+        "symbol": "AAPL",
+        "value_base": 484.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 489.69003,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -86.64003,
+        "quantity": 0.9367,
+        "symbol": "MSFT",
+        "value_base": 403.05
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 372.881849,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 7.828151,
+        "quantity": 0.5984,
+        "symbol": "VOO",
+        "value_base": 380.71
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 306.659226,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": 15.150774,
+        "quantity": 1.3448,
+        "symbol": "AMZN",
+        "value_base": 321.81
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 223.124589,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": 29.305411,
+        "quantity": 0.7412,
+        "symbol": "VTI",
+        "value_base": 252.43
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.270563,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -11.050563,
+        "quantity": 0.3241,
+        "symbol": "META",
+        "value_base": 232.22
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 166.404474,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": 54.345526,
+        "quantity": 0.6678,
+        "symbol": "TSM",
+        "value_base": 220.75
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 222.110077,
+        "currency": "USD",
+        "name": "ISHARES BITCOIN TRUST ETF",
+        "pnl_base": -7.210077,
+        "quantity": 4.5251,
+        "symbol": "IBIT",
+        "value_base": 214.9
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 206.58107798,
+        "currency": "SAR",
+        "name": "SAUDI ARABIAN OIL CO",
+        "pnl_base": -0.21719798,
+        "quantity": 30.0,
+        "symbol": "2222",
+        "value_base": 206.36388
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 226.462954,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -26.452954,
+        "quantity": 0.6037,
+        "symbol": "AVGO",
+        "value_base": 200.01
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 195.099193,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -11.139193,
+        "quantity": 0.4274,
+        "symbol": "TSLA",
+        "value_base": 183.96
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 132.663783,
+        "currency": "USD",
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "pnl_base": 0.536217,
+        "quantity": 0.2772,
+        "symbol": "BRK B",
+        "value_base": 133.2
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 105.608452,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 20.511548,
+        "quantity": 0.1216,
+        "symbol": "LLY",
+        "value_base": 126.12
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 104.093675,
+        "currency": "USD",
+        "name": "WALMART INC",
+        "pnl_base": 18.146325,
+        "quantity": 1.026,
+        "symbol": "WMT",
+        "value_base": 122.24
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 109.348661,
+        "currency": "USD",
+        "name": "JPMORGAN CHASE & CO",
+        "pnl_base": -2.348661,
+        "quantity": 0.3498,
+        "symbol": "JPM",
+        "value_base": 107.0
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.082604,
+        "currency": "USD",
+        "name": "TENCENT HOLDINGS LTD-UNS ADR",
+        "pnl_base": -5.532604,
+        "quantity": 1.1854,
+        "symbol": "TCEHY",
+        "value_base": 90.55
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 52.374052,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 8.215949,
+        "quantity": 0.8092,
+        "symbol": "IBKR",
+        "value_base": 60.59
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 96.840266,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -36.600266,
+        "quantity": 0.366,
+        "symbol": "ORCL",
+        "value_base": 60.24
+      }
+    ],
+    "2026-02-06": [
+      {
+        "asset_class": "STK",
+        "cost_base": 551.835405,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": 14.964595,
+        "quantity": 3.057,
+        "symbol": "NVDA",
+        "value_base": 566.8
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 451.752831,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 67.46717,
+        "quantity": 1.8669,
+        "symbol": "AAPL",
+        "value_base": 519.22
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 392.468629,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": 83.811371,
+        "quantity": 1.4741,
+        "symbol": "GOOG",
+        "value_base": 476.28
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 489.69003,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -113.94003,
+        "quantity": 0.9367,
+        "symbol": "MSFT",
+        "value_base": 375.75
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 351.073293,
+        "currency": "USD",
+        "name": "VANGUARD S&P 500 ETF",
+        "pnl_base": 6.816707,
+        "quantity": 0.5634,
+        "symbol": "VOO",
+        "value_base": 357.89
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 306.659226,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": -23.819226,
+        "quantity": 1.3448,
+        "symbol": "AMZN",
+        "value_base": 282.84
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 223.124589,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": 29.59541,
+        "quantity": 0.7412,
+        "symbol": "VTI",
+        "value_base": 252.72
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 159.54795,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": 61.662052,
+        "quantity": 0.6341,
+        "symbol": "TSM",
+        "value_base": 221.21
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 243.270563,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -28.890563,
+        "quantity": 0.3241,
+        "symbol": "META",
+        "value_base": 214.38
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 206.60432242,
+        "currency": "SAR",
+        "name": "SAUDI ARABIAN OIL CO",
+        "pnl_base": -1.81712242,
+        "quantity": 30.0,
+        "symbol": "2222",
+        "value_base": 204.7872
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 226.462954,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -25.482954,
+        "quantity": 0.6037,
+        "symbol": "AVGO",
+        "value_base": 200.98
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 208.564538,
+        "currency": "USD",
+        "name": "TESLA INC",
+        "pnl_base": -19.984538,
+        "quantity": 0.4587,
+        "symbol": "TSLA",
+        "value_base": 188.58
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 210.791815,
+        "currency": "USD",
+        "name": "ISHARES BITCOIN TRUST ETF",
+        "pnl_base": -40.391815,
+        "quantity": 4.2943,
+        "symbol": "IBIT",
+        "value_base": 170.4
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 126.202884,
+        "currency": "USD",
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "pnl_base": 7.777116,
+        "quantity": 0.2637,
+        "symbol": "BRK B",
+        "value_base": 133.98
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 98.866519,
+        "currency": "USD",
+        "name": "WALMART INC",
+        "pnl_base": 28.953481,
+        "quantity": 0.9744,
+        "symbol": "WMT",
+        "value_base": 127.82
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 100.398227,
+        "currency": "USD",
+        "name": "ELI LILLY & CO",
+        "pnl_base": 21.931773,
+        "quantity": 0.1156,
+        "symbol": "LLY",
+        "value_base": 122.33
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 104.470941,
+        "currency": "USD",
+        "name": "JPMORGAN CHASE & CO",
+        "pnl_base": 3.279059,
+        "quantity": 0.3342,
+        "symbol": "JPM",
+        "value_base": 107.75
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 91.381354,
+        "currency": "USD",
+        "name": "TENCENT HOLDINGS LTD-UNS ADR",
+        "pnl_base": -10.751354,
+        "quantity": 1.1278,
+        "symbol": "TCEHY",
+        "value_base": 80.63
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 51.952508,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 6.277492,
+        "quantity": 0.7807,
+        "symbol": "IBKR",
+        "value_base": 58.23
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 91.915423,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -42.295423,
+        "quantity": 0.3474,
+        "symbol": "ORCL",
+        "value_base": 49.62
       }
     ],
     "2026-02-13": [
@@ -8040,7 +9258,7 @@
     ]
   },
   "inception_date": "2024-11-04",
-  "last_import": "2026-10-24T12:04:30+00:00",
+  "last_import": "2026-10-25T12:38:34+00:00",
   "nav": {
     "2024-11-01": {
       "cash_base": 0,
