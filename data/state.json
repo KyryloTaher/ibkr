@@ -1,5 +1,11 @@
 {
   "backfill_checked": [
+    "2025-03-14",
+    "2025-03-21",
+    "2025-03-28",
+    "2025-04-04",
+    "2025-04-11",
+    "2025-04-18",
     "2025-04-25",
     "2025-05-02",
     "2025-05-09",
@@ -1845,6 +1851,618 @@
     "2026-10-30": 0.89509
   },
   "holdings": {
+    "2025-03-14": [
+      {
+        "asset_class": "STK",
+        "cost_base": 510.697442,
+        "currency": "USD",
+        "name": "VANGUARD TOT WORLD STK ETF",
+        "pnl_base": -22.727441,
+        "quantity": 4.154,
+        "symbol": "VT",
+        "value_base": 487.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 529.707864,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": -58.067863,
+        "quantity": 2.2092,
+        "symbol": "AAPL",
+        "value_base": 471.64
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 505.18653,
+        "currency": "USD",
+        "name": "SPDR S&P 500 ETF TRUST",
+        "pnl_base": -34.84653,
+        "quantity": 0.8357,
+        "symbol": "SPY",
+        "value_base": 470.34
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 506.217262,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": -39.817261,
+        "quantity": 1.6838,
+        "symbol": "VTI",
+        "value_base": 466.4
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 106.658501,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": 15.041499,
+        "quantity": 5.0603,
+        "symbol": "INTC",
+        "value_base": 121.7
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 111.774854,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -0.664855,
+        "quantity": 1.1024,
+        "symbol": "MU",
+        "value_base": 111.11
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 114.728522,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -10.348522,
+        "quantity": 0.8579,
+        "symbol": "NVDA",
+        "value_base": 104.38
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 112.583198,
+        "currency": "USD",
+        "name": "ADVANCED MICRO DEVICES",
+        "pnl_base": -24.873198,
+        "quantity": 0.8687,
+        "symbol": "AMD",
+        "value_base": 87.71
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 99.34832,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": -14.33832,
+        "quantity": 0.4883,
+        "symbol": "TSM",
+        "value_base": 85.01
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.87,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": -2.11,
+        "quantity": 0.1473,
+        "symbol": "IBKR",
+        "value_base": 24.76
+      }
+    ],
+    "2025-03-21": [
+      {
+        "asset_class": "STK",
+        "cost_base": 510.697442,
+        "currency": "USD",
+        "name": "VANGUARD TOT WORLD STK ETF",
+        "pnl_base": -22.187441,
+        "quantity": 4.154,
+        "symbol": "VT",
+        "value_base": 488.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 529.707864,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": -47.507864,
+        "quantity": 2.2092,
+        "symbol": "AAPL",
+        "value_base": 482.2
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 505.18653,
+        "currency": "USD",
+        "name": "SPDR S&P 500 ETF TRUST",
+        "pnl_base": -33.866529,
+        "quantity": 0.8357,
+        "symbol": "SPY",
+        "value_base": 471.32
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 506.217262,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": -36.687261,
+        "quantity": 1.6838,
+        "symbol": "VTI",
+        "value_base": 469.53
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 106.658501,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": 16.101499,
+        "quantity": 5.0603,
+        "symbol": "INTC",
+        "value_base": 122.76
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 111.774854,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -7.354855,
+        "quantity": 1.1024,
+        "symbol": "MU",
+        "value_base": 104.42
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 114.728522,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -13.758523,
+        "quantity": 0.8579,
+        "symbol": "NVDA",
+        "value_base": 100.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 112.583198,
+        "currency": "USD",
+        "name": "ADVANCED MICRO DEVICES",
+        "pnl_base": -20.123198,
+        "quantity": 0.8687,
+        "symbol": "AMD",
+        "value_base": 92.46
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 99.34832,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": -13.04832,
+        "quantity": 0.4883,
+        "symbol": "TSM",
+        "value_base": 86.3
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.886942,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": -1.336942,
+        "quantity": 0.1474,
+        "symbol": "IBKR",
+        "value_base": 25.55
+      }
+    ],
+    "2025-03-28": [
+      {
+        "asset_class": "STK",
+        "cost_base": 512.057,
+        "currency": "USD",
+        "name": "VANGUARD TOT WORLD STK ETF",
+        "pnl_base": -29.616998,
+        "quantity": 4.1654,
+        "symbol": "VT",
+        "value_base": 482.44
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 529.707864,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": -48.327864,
+        "quantity": 2.2092,
+        "symbol": "AAPL",
+        "value_base": 481.38
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 505.18653,
+        "currency": "USD",
+        "name": "SPDR S&P 500 ETF TRUST",
+        "pnl_base": -40.81653,
+        "quantity": 0.8357,
+        "symbol": "SPY",
+        "value_base": 464.37
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 506.217262,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": -45.817262,
+        "quantity": 1.6838,
+        "symbol": "VTI",
+        "value_base": 460.4
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 106.658501,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": 8.261499,
+        "quantity": 5.0603,
+        "symbol": "INTC",
+        "value_base": 114.92
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 111.774854,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -14.274854,
+        "quantity": 1.1024,
+        "symbol": "MU",
+        "value_base": 97.5
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 114.728522,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -20.638522,
+        "quantity": 0.8579,
+        "symbol": "NVDA",
+        "value_base": 94.09
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 112.583198,
+        "currency": "USD",
+        "name": "ADVANCED MICRO DEVICES",
+        "pnl_base": -22.913198,
+        "quantity": 0.8687,
+        "symbol": "AMD",
+        "value_base": 89.67
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 99.34832,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": -18.65832,
+        "quantity": 0.4883,
+        "symbol": "TSM",
+        "value_base": 80.69
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.886942,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": -2.606942,
+        "quantity": 0.1474,
+        "symbol": "IBKR",
+        "value_base": 24.28
+      }
+    ],
+    "2025-04-04": [
+      {
+        "asset_class": "STK",
+        "cost_base": 512.057,
+        "currency": "USD",
+        "name": "VANGUARD TOT WORLD STK ETF",
+        "pnl_base": -71.777,
+        "quantity": 4.1654,
+        "symbol": "VT",
+        "value_base": 440.28
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 505.18653,
+        "currency": "USD",
+        "name": "SPDR S&P 500 ETF TRUST",
+        "pnl_base": -82.926531,
+        "quantity": 0.8357,
+        "symbol": "SPY",
+        "value_base": 422.26
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 507.625915,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": -87.985914,
+        "quantity": 1.6889,
+        "symbol": "VTI",
+        "value_base": 419.64
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 529.707864,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": -113.537864,
+        "quantity": 2.2092,
+        "symbol": "AAPL",
+        "value_base": 416.17
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 106.658501,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -6.208502,
+        "quantity": 5.0603,
+        "symbol": "INTC",
+        "value_base": 100.45
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 114.738502,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -33.818502,
+        "quantity": 0.858,
+        "symbol": "NVDA",
+        "value_base": 80.92
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 112.583198,
+        "currency": "USD",
+        "name": "ADVANCED MICRO DEVICES",
+        "pnl_base": -38.083198,
+        "quantity": 0.8687,
+        "symbol": "AMD",
+        "value_base": 74.5
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 99.34832,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": -27.66832,
+        "quantity": 0.4883,
+        "symbol": "TSM",
+        "value_base": 71.68
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 111.774854,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -40.424854,
+        "quantity": 1.1024,
+        "symbol": "MU",
+        "value_base": 71.35
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.886942,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": -5.356942,
+        "quantity": 0.1474,
+        "symbol": "IBKR",
+        "value_base": 21.53
+      }
+    ],
+    "2025-04-11": [
+      {
+        "asset_class": "STK",
+        "cost_base": 512.057,
+        "currency": "USD",
+        "name": "VANGUARD TOT WORLD STK ETF",
+        "pnl_base": -49.236998,
+        "quantity": 4.1654,
+        "symbol": "VT",
+        "value_base": 462.82
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 505.18653,
+        "currency": "USD",
+        "name": "SPDR S&P 500 ETF TRUST",
+        "pnl_base": -58.97653,
+        "quantity": 0.8357,
+        "symbol": "SPY",
+        "value_base": 446.21
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 507.625915,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": -65.575914,
+        "quantity": 1.6889,
+        "symbol": "VTI",
+        "value_base": 442.05
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 529.707864,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": -91.957864,
+        "quantity": 2.2092,
+        "symbol": "AAPL",
+        "value_base": 437.75
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 106.658501,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -6.768502,
+        "quantity": 5.0603,
+        "symbol": "INTC",
+        "value_base": 99.89
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 114.738502,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -19.558503,
+        "quantity": 0.858,
+        "symbol": "NVDA",
+        "value_base": 95.18
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 112.583198,
+        "currency": "USD",
+        "name": "ADVANCED MICRO DEVICES",
+        "pnl_base": -31.443198,
+        "quantity": 0.8687,
+        "symbol": "AMD",
+        "value_base": 81.14
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 99.596537,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": -22.646537,
+        "quantity": 0.4899,
+        "symbol": "TSM",
+        "value_base": 76.95
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 111.774854,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -35.104854,
+        "quantity": 1.1024,
+        "symbol": "MU",
+        "value_base": 76.67
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.886942,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": -1.626942,
+        "quantity": 0.1474,
+        "symbol": "IBKR",
+        "value_base": 25.26
+      }
+    ],
+    "2025-04-18": [
+      {
+        "asset_class": "STK",
+        "cost_base": 512.057,
+        "currency": "USD",
+        "name": "VANGUARD TOT WORLD STK ETF",
+        "pnl_base": -48.947,
+        "quantity": 4.1654,
+        "symbol": "VT",
+        "value_base": 463.11
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 505.18653,
+        "currency": "USD",
+        "name": "SPDR S&P 500 ETF TRUST",
+        "pnl_base": -65.26653,
+        "quantity": 0.8357,
+        "symbol": "SPY",
+        "value_base": 439.92
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 507.625915,
+        "currency": "USD",
+        "name": "VANGUARD TOTAL STOCK MKT ETF",
+        "pnl_base": -70.625915,
+        "quantity": 1.6889,
+        "symbol": "VTI",
+        "value_base": 437.0
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 529.707864,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": -94.537863,
+        "quantity": 2.2092,
+        "symbol": "AAPL",
+        "value_base": 435.17
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 106.658501,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -10.868501,
+        "quantity": 5.0603,
+        "symbol": "INTC",
+        "value_base": 95.79
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 114.738502,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -27.658503,
+        "quantity": 0.858,
+        "symbol": "NVDA",
+        "value_base": 87.08
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 112.583198,
+        "currency": "USD",
+        "name": "ADVANCED MICRO DEVICES",
+        "pnl_base": -36.573198,
+        "quantity": 0.8687,
+        "symbol": "AMD",
+        "value_base": 76.01
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 111.884955,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -35.924956,
+        "quantity": 1.104,
+        "symbol": "MU",
+        "value_base": 75.96
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 99.596537,
+        "currency": "USD",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "pnl_base": -25.256537,
+        "quantity": 0.4899,
+        "symbol": "TSM",
+        "value_base": 74.34
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.886942,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": -3.376941,
+        "quantity": 0.1474,
+        "symbol": "IBKR",
+        "value_base": 23.51
+      }
+    ],
     "2025-04-25": [
       {
         "asset_class": "STK",
@@ -14383,7 +15001,7 @@
     ]
   },
   "inception_date": "2024-11-04",
-  "last_import": "2026-10-31T13:44:14+00:00",
+  "last_import": "2026-11-01T14:22:23+00:00",
   "nav": {
     "2024-11-01": {
       "cash_base": 0,
