@@ -152,6 +152,10 @@
     [
       "2025-11-04",
       "2026-11-03"
+    ],
+    [
+      "2025-11-05",
+      "2026-11-04"
     ]
   ],
   "cashflows": {
@@ -1877,7 +1881,8 @@
     "2026-10-30": 0.89509,
     "2026-11-02": 0.89158,
     "2026-11-03": 0.89453,
-    "2026-11-04": 0.88755
+    "2026-11-04": 0.88755,
+    "2026-11-05": 0.89095
   },
   "holdings": {
     "2024-11-08": [
@@ -17027,10 +17032,132 @@
         "symbol": "NVDA",
         "value_base": 30.16
       }
+    ],
+    "2026-11-04": [
+      {
+        "asset_class": "STK",
+        "cost_base": 787.640574,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -61.000574,
+        "quantity": 1.1534,
+        "symbol": "META",
+        "value_base": 726.64
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 411.260531,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 13.389469,
+        "quantity": 1.215,
+        "symbol": "AAPL",
+        "value_base": 424.65
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 442.558584,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -94.088584,
+        "quantity": 0.4382,
+        "symbol": "MU",
+        "value_base": 348.47
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 318.783361,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": -50.763361,
+        "quantity": 0.9329,
+        "symbol": "GOOG",
+        "value_base": 268.02
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 238.286814,
+        "currency": "USD",
+        "name": "MERCK & CO INC",
+        "pnl_base": 8.423186,
+        "quantity": 1.6408,
+        "symbol": "MRK",
+        "value_base": 246.71
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 126.443459,
+        "currency": "USD",
+        "name": "MASTERCARD INC - A",
+        "pnl_base": 12.056541,
+        "quantity": 0.2059,
+        "symbol": "MA",
+        "value_base": 138.5
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 128.150993,
+        "currency": "USD",
+        "name": "SANDISK CORP",
+        "pnl_base": -30.740993,
+        "quantity": 0.0939,
+        "symbol": "SNDK",
+        "value_base": 97.41
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 85.842677,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -3.332677,
+        "quantity": 0.2535,
+        "symbol": "AVGO",
+        "value_base": 82.51
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 79.085135,
+        "currency": "USD",
+        "name": "CHEVRON CORP",
+        "pnl_base": -2.695135,
+        "quantity": 0.3521,
+        "symbol": "CVX",
+        "value_base": 76.39
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 48.718164,
+        "currency": "USD",
+        "name": "INTERACTIVE BROKERS GRO-CL A",
+        "pnl_base": 2.981836,
+        "quantity": 0.6639,
+        "symbol": "IBKR",
+        "value_base": 51.7
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 38.517826,
+        "currency": "USD",
+        "name": "QUALCOMM INC",
+        "pnl_base": -0.637826,
+        "quantity": 0.2187,
+        "symbol": "QCOM",
+        "value_base": 37.88
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 33.087623,
+        "currency": "USD",
+        "name": "NVIDIA CORP",
+        "pnl_base": -3.887622,
+        "quantity": 0.1459,
+        "symbol": "NVDA",
+        "value_base": 29.2
+      }
     ]
   },
   "inception_date": "2024-11-04",
-  "last_import": "2026-11-04T15:32:37+00:00",
+  "last_import": "2026-11-05T15:37:06+00:00",
   "nav": {
     "2024-11-01": {
       "cash_base": 0,
@@ -19335,6 +19462,10 @@
     "2026-11-03": {
       "cash_base": 119.242499969,
       "total_base": 2630.562499969
+    },
+    "2026-11-04": {
+      "cash_base": 119.242499969,
+      "total_base": 2647.322499969
     }
   },
   "schema": 2
