@@ -164,6 +164,10 @@
     [
       "2025-11-07",
       "2026-11-06"
+    ],
+    [
+      "2025-11-11",
+      "2026-11-10"
     ]
   ],
   "cashflows": {
@@ -1244,6 +1248,12 @@
       "currency": "EUR",
       "date": "2026-08-11"
     },
+    "07dbc438d7e8a5c04ef0": {
+      "amount_base": -557.53,
+      "amount_currency": -557.53,
+      "currency": "USD",
+      "date": "2026-11-10"
+    },
     "0911fadb484dcbed2c1e": {
       "amount_base": -100.0,
       "amount_currency": -100.0,
@@ -1892,7 +1902,9 @@
     "2026-11-04": 0.88755,
     "2026-11-05": 0.89095,
     "2026-11-06": 0.89566,
-    "2026-11-09": 0.89342
+    "2026-11-09": 0.89342,
+    "2026-11-10": 0.89174,
+    "2026-11-11": 0.89871
   },
   "holdings": {
     "2024-11-08": [
@@ -17408,10 +17420,102 @@
         "symbol": "NVDA",
         "value_base": 27.23
       }
+    ],
+    "2026-11-10": [
+      {
+        "asset_class": "STK",
+        "cost_base": 681.766662,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -121.696662,
+        "quantity": 0.7724,
+        "symbol": "MU",
+        "value_base": 560.07
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 381.625463,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -41.305462,
+        "quantity": 0.5306,
+        "symbol": "META",
+        "value_base": 340.32
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 180.483494,
+        "currency": "USD",
+        "name": "MERCK & CO INC",
+        "pnl_base": 3.546506,
+        "quantity": 1.243,
+        "symbol": "MRK",
+        "value_base": 184.03
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 178.284159,
+        "currency": "USD",
+        "name": "CHEVRON CORP",
+        "pnl_base": -2.14416,
+        "quantity": 0.8339,
+        "symbol": "CVX",
+        "value_base": 176.14
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 179.622526,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": -28.952525,
+        "quantity": 0.5288,
+        "symbol": "GOOG",
+        "value_base": 150.67
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 128.944645,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 3.145355,
+        "quantity": 0.379,
+        "symbol": "AAPL",
+        "value_base": 132.09
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 65.653429,
+        "currency": "USD",
+        "name": "MASTERCARD INC - A",
+        "pnl_base": 4.576571,
+        "quantity": 0.1066,
+        "symbol": "MA",
+        "value_base": 70.23
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 46.087528,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -0.907528,
+        "quantity": 0.1361,
+        "symbol": "AVGO",
+        "value_base": 45.18
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 63.051926,
+        "currency": "USD",
+        "name": "SANDISK CORP",
+        "pnl_base": -23.321926,
+        "quantity": 0.0462,
+        "symbol": "SNDK",
+        "value_base": 39.73
+      }
     ]
   },
   "inception_date": "2024-11-04",
-  "last_import": "2026-11-09T17:40:15+00:00",
+  "last_import": "2026-11-11T15:25:44+00:00",
   "nav": {
     "2024-11-01": {
       "cash_base": 0,
@@ -19728,6 +19832,18 @@
     "2026-11-06": {
       "cash_base": 119.242499969,
       "total_base": 2522.822499969
+    },
+    "2026-11-08": {
+      "cash_base": 119.242499969,
+      "total_base": 2522.822499969
+    },
+    "2026-11-09": {
+      "cash_base": 959.619075475,
+      "total_base": 2590.369075475
+    },
+    "2026-11-10": {
+      "cash_base": 330.478430513,
+      "total_base": 2028.938430513
     }
   },
   "schema": 2
