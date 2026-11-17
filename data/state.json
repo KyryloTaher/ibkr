@@ -180,6 +180,10 @@
     [
       "2025-11-14",
       "2026-11-13"
+    ],
+    [
+      "2025-11-17",
+      "2026-11-16"
     ]
   ],
   "cashflows": {
@@ -374,6 +378,12 @@
       "date": "2026-07-09",
       "kind": "Withholding Tax",
       "symbol": "TSM"
+    },
+    "2f3e54c320691ed4b65a": {
+      "amount_base": 0.1,
+      "date": "2026-11-16",
+      "kind": "Dividends",
+      "symbol": "AAPL"
     },
     "324a894aab00f894f474": {
       "amount_base": 1.05,
@@ -680,6 +690,12 @@
       "date": "2025-06-13",
       "kind": "Withholding Tax",
       "symbol": "IBKR"
+    },
+    "7596fce09aa0140bd7ec": {
+      "amount_base": -0.02,
+      "date": "2026-11-16",
+      "kind": "Withholding Tax",
+      "symbol": "AAPL"
     },
     "759f00420b8608aa2099": {
       "amount_base": 0.18,
@@ -1919,7 +1935,8 @@
     "2026-11-11": 0.89871,
     "2026-11-12": 0.90245,
     "2026-11-13": 0.90481,
-    "2026-11-16": 0.90794
+    "2026-11-16": 0.90794,
+    "2026-11-17": 0.91
   },
   "holdings": {
     "2024-11-08": [
@@ -18043,10 +18060,252 @@
         "symbol": "LRCX",
         "value_base": 5.17
       }
+    ],
+    "2026-11-16": [
+      {
+        "asset_class": "STK",
+        "cost_base": 627.884658,
+        "currency": "USD",
+        "name": "MICRON TECHNOLOGY INC",
+        "pnl_base": -110.404658,
+        "quantity": 0.7197,
+        "symbol": "MU",
+        "value_base": 517.48
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 399.0339,
+        "currency": "USD",
+        "name": "META PLATFORMS INC-CLASS A",
+        "pnl_base": -49.433899,
+        "quantity": 0.5581,
+        "symbol": "META",
+        "value_base": 349.6
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 188.11147,
+        "currency": "USD",
+        "name": "MERCK & CO INC",
+        "pnl_base": -1.14147,
+        "quantity": 1.2943,
+        "symbol": "MRK",
+        "value_base": 186.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 178.284159,
+        "currency": "USD",
+        "name": "CHEVRON CORP",
+        "pnl_base": 2.785841,
+        "quantity": 0.8339,
+        "symbol": "CVX",
+        "value_base": 181.07
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 179.622526,
+        "currency": "USD",
+        "name": "ALPHABET INC-CL C",
+        "pnl_base": -30.892526,
+        "quantity": 0.5288,
+        "symbol": "GOOG",
+        "value_base": 148.73
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 131.516473,
+        "currency": "USD",
+        "name": "APPLE INC",
+        "pnl_base": 4.693526,
+        "quantity": 0.3861,
+        "symbol": "AAPL",
+        "value_base": 136.21
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 65.653429,
+        "currency": "USD",
+        "name": "MASTERCARD INC - A",
+        "pnl_base": 4.886571,
+        "quantity": 0.1066,
+        "symbol": "MA",
+        "value_base": 70.54
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 68.858358,
+        "currency": "USD",
+        "name": "BROADCOM INC",
+        "pnl_base": -2.548358,
+        "quantity": 0.1989,
+        "symbol": "AVGO",
+        "value_base": 66.31
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 83.839252,
+        "currency": "USD",
+        "name": "SANDISK CORP",
+        "pnl_base": -27.609252,
+        "quantity": 0.0695,
+        "symbol": "SNDK",
+        "value_base": 56.23
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 55.443771,
+        "currency": "USD",
+        "name": "GE VERNOVA INC",
+        "pnl_base": -2.523771,
+        "quantity": 0.0693,
+        "symbol": "GEV",
+        "value_base": 52.92
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 36.614308,
+        "currency": "USD",
+        "name": "GILEAD SCIENCES INC",
+        "pnl_base": -1.154308,
+        "quantity": 0.2116,
+        "symbol": "GILD",
+        "value_base": 35.46
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 34.537423,
+        "currency": "USD",
+        "name": "BRISTOL-MYERS SQUIBB CO",
+        "pnl_base": -0.887423,
+        "quantity": 0.5348,
+        "symbol": "BMY",
+        "value_base": 33.65
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 34.702331,
+        "currency": "USD",
+        "name": "AMAZON.COM INC",
+        "pnl_base": -1.762331,
+        "quantity": 0.1278,
+        "symbol": "AMZN",
+        "value_base": 32.94
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 28.470989,
+        "currency": "USD",
+        "name": "PFIZER INC",
+        "pnl_base": -1.020989,
+        "quantity": 0.9511,
+        "symbol": "PFE",
+        "value_base": 27.45
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 26.908692,
+        "currency": "USD",
+        "name": "VERIZON COMMUNICATIONS INC",
+        "pnl_base": -0.628692,
+        "quantity": 0.5671,
+        "symbol": "VZ",
+        "value_base": 26.28
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 11.398402,
+        "currency": "USD",
+        "name": "MICROSOFT CORP",
+        "pnl_base": -0.208402,
+        "quantity": 0.0216,
+        "symbol": "MSFT",
+        "value_base": 11.19
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 11.294416,
+        "currency": "USD",
+        "name": "INTL BUSINESS MACHINES CORP",
+        "pnl_base": -0.384416,
+        "quantity": 0.045,
+        "symbol": "IBM",
+        "value_base": 10.91
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 10.99499,
+        "currency": "USD",
+        "name": "SALESFORCE INC",
+        "pnl_base": -0.36499,
+        "quantity": 0.0495,
+        "symbol": "CRM",
+        "value_base": 10.63
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 11.022467,
+        "currency": "USD",
+        "name": "INTEL CORP",
+        "pnl_base": -0.852467,
+        "quantity": 0.1834,
+        "symbol": "INTC",
+        "value_base": 10.17
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 8.117435,
+        "currency": "USD",
+        "name": "JOHNSON & JOHNSON",
+        "pnl_base": -0.147435,
+        "quantity": 0.0282,
+        "symbol": "JNJ",
+        "value_base": 7.97
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 8.368387,
+        "currency": "USD",
+        "name": "ORACLE CORP",
+        "pnl_base": -0.638387,
+        "quantity": 0.0649,
+        "symbol": "ORCL",
+        "value_base": 7.73
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 7.229335,
+        "currency": "USD",
+        "name": "ABBVIE INC",
+        "pnl_base": -0.129335,
+        "quantity": 0.0241,
+        "symbol": "ABBV",
+        "value_base": 7.1
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 5.436592,
+        "currency": "USD",
+        "name": "PHILIP MORRIS INTERNATIONAL",
+        "pnl_base": -0.146592,
+        "quantity": 0.027,
+        "symbol": "PM",
+        "value_base": 5.29
+      },
+      {
+        "asset_class": "STK",
+        "cost_base": 5.33521,
+        "currency": "USD",
+        "name": "LAM RESEARCH CORP",
+        "pnl_base": -0.50521,
+        "quantity": 0.0229,
+        "symbol": "LRCX",
+        "value_base": 4.83
+      }
     ]
   },
   "inception_date": "2024-11-04",
-  "last_import": "2026-11-16T17:10:32+00:00",
+  "last_import": "2026-11-17T16:57:16+00:00",
   "nav": {
     "2024-11-01": {
       "cash_base": 0,
@@ -20387,6 +20646,14 @@
     "2026-11-13": {
       "cash_base": 3.592985039,
       "total_base": 2080.832985039
+    },
+    "2026-11-15": {
+      "cash_base": 3.592985039,
+      "total_base": 2080.832985039
+    },
+    "2026-11-16": {
+      "cash_base": 3.672985039,
+      "total_base": 2001.332985039
     }
   },
   "schema": 2
